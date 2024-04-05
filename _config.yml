@@ -24,7 +24,7 @@ author:
   avatar           : "ilia_popov.png"
   name             : "Ilia Popov"
   pronouns         : # example: "she/her"  
-  bio              : "Research assistant, DSTU"
+  bio              : "Research Assistant, DSTU"
   location         : "Rostov-on-Don, Russia"
   employer         : # "Red Brick University"
   uri              : # URL
@@ -54,7 +54,7 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # ilya_pop0v
+  instagram        : ilya_pop0v
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
