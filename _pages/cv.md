@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[CV in PDF format](http://iliapopov17.github.io/files/Ilia_Popov_CV.pdf)
+[PDF format](http://iliapopov17.github.io/files/Ilia_Popov_CV.pdf)
 
 {% include base_path %}
 
