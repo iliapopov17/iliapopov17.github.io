@@ -21,10 +21,10 @@ repository               : "iliapopov17/iliapopov17.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/ilia_popov.png"
-  name             : "Your Sidebar Name"
+  avatar           : "ilia_popov.png"
+  name             : "Ilia Popov"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Research assistant, DSTU"
   location         : "Rostov-on-Don, Russia"
   employer         : # "Red Brick University"
   uri              : # URL
@@ -35,7 +35,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=j0zVUu0AAAAJ"
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0001-7947-1654"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Ilia-Popov-2"
 
   # Repositories and software development
@@ -280,7 +280,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Moscow # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
