@@ -13,7 +13,6 @@ redirect_from:
 
 Education
 ======
-* Professional retraining program «Bioinformatics for Biologists», [Bioinformatics Institute](https://bioinf.me/en) (Saint Petersburg, Russia; Sep 2023 – May 2024)
 * 2024. _Retraining program_, [_Bioinformatics Institute_](https://bioinf.me/en), «Bioinformatics for Biologists»
   * Research project: The shadow of HIV - [GitHub](https://github.com/iliapopov17/The-shadow-of-HIV)
   * Study projects - [GitHub](https://github.com/iliapopov17/BI-Workshop-miniProjects)
