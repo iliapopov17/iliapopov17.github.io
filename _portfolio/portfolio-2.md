@@ -9,10 +9,10 @@ Data of WGS-based non-invasive prenatal testing (NIPT) or cell-free DNA testing 
 Being a retrovirus, HIV can not be directly detected in cell-free DNA data.<br>
 
 Steps of the study:<br>
-    1. Extraction of unmapped reads
-    2. Assigning taxonomic labels
-    3. **Creating residual virus and microbiome profiles of two datasets** - current step
-    4. Analysis of the HIV-positive sequencing data
+    1. Extraction of unmapped reads<br>
+    2. Assigning taxonomic labels<br>
+    3. **Creating residual virus and microbiome profiles of two datasets** – current step<br>
+    4. Analysis of the HIV-positive sequencing data<br>
     5. Finding the differences in exogenous DNA composition between HIV- and HIV+ NIPT samples<br>
 
 <img src='/images/Current_status_Shadow.png'>
