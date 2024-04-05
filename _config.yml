@@ -24,9 +24,7 @@ author:
   avatar           : "ilia_popov.png"
   name             : "Ilia Popov"
   pronouns         : # example: "she/her"  
-  bio              : "Research assistant,
-  Igor Popov's group,
-  Alexey M. Ermakov's Lab, DSTU"
+  bio              : "Research assistant, DSTU"
   location         : "Rostov-on-Don, Russia"
   employer         : # "Red Brick University"
   uri              : # URL
@@ -64,7 +62,7 @@ author:
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
-  telegram         : t.me/ilya_pop0v
+  telegram         : https://t.me/ilya_pop0v
   tumblr           : # Username
   twitter          : # "UniofOxford"  # Replace this with your X / Twitter handle
   vine             : # Username
