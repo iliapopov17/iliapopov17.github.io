@@ -13,11 +13,11 @@ redirect_from:
 
 Education
 ======
-* 2024. _Retraining program_, [_Bioinformatics Institute_](https://bioinf.me/en), «Bioinformatics for Biologists»
+* &nbsp;2024. _Retraining program_, [_Bioinformatics Institute_](https://bioinf.me/en), «Bioinformatics for Biologists»
   * Research project: The shadow of HIV - [GitHub](https://github.com/iliapopov17/The-shadow-of-HIV)
   * Study projects - [GitHub](https://github.com/iliapopov17/BI-Workshop-miniProjects)
   * Developed beginner-level tool [SequenceForge-Lite](https://github.com/iliapopov17/SequenceForge-Lite) and simple [EDA Python module](https://github.com/iliapopov17/MyAwesomeEDA)
-* 2023. _M.D._, [_Rostov State Medical University_](https://rostgmu.net/), Pediatrics
+* &nbsp;2023. _M.D._, [_Rostov State Medical University_](https://rostgmu.net/), Pediatrics
   * Graduated with honors
   * GPA: 4.85 (5.0 – max)
 
