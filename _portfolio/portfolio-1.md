@@ -4,9 +4,6 @@ excerpt: "Research Internship in Indonesia (Bina Nusantara University; Feb 2023 
 collection: portfolio
 ---
 
-## Research topic
-Pediatric Nutritional Medicine and Intestinal Microbiology
-
 ## Field Work
 
 During the internship, I did a research expedition to the East Nusa Tenggara Province (Kupang City & North Kodi Township). This experience involved participation in the organization and execution of a clinical trial, a significant endeavor aimed at advancing our understanding of probiotic efficacy.<br>
@@ -15,7 +12,7 @@ The crux of my responsibilities revolved around assistanship of organization and
 
 Blood and stool samples were systematically gathered from the participants.<br>
 
-<img src="https://github.com/iliapopov17/PNMIM/blob/84c205eaac7977f7e80cab94097b9f2fcc0412ad/img/Study%20design.jpg" align='center', width="100%">
+<img src='/images/Clinical_trial_design.jpg'>
 
 _Figure 1. Clinical trial design._
 

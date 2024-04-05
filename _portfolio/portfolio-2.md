@@ -1,0 +1,18 @@
+---
+title: "The shadow of HIV"
+excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024)."
+collection: portfolio
+---
+
+Data of WGS-based non-invasive prenatal testing (NIPT) or cell-free DNA testing contains exogenous DNA (bacterial and viral). This information is too fragmentary to conduct full microbiome studies, but still interesting for expanding NIPT functionality.<br>
+Being a retrovirus, HIV can not be directly detected in cell-free DNA data.<br>
+Steps of the study:<br>
+1) Extraction of unmapped reads
+2) Assigning taxonomic labels
+3) **__Creating residual virus and microbiome profiles of two datasets__** - current step
+4) Analysis of the HIV-positive sequencing data
+5) Finding the differences in exogenous DNA composition between HIV- and HIV+ NIPT samples<br>
+
+<img src='/images/Current_status_Shadow.png'>
+
+The results will be published in the very begining of the May, 2024 in [The-shadow-of-HIV repository](https://github.com/iliapopov17/The-shadow-of-HIV).
