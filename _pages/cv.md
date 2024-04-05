@@ -39,7 +39,6 @@ Work experience
   * Staining of histological slices
   * Analysis and interpretation of histological slices
 
-* Laboratory Assistant, Laboratory of the «Microbiology and Virology» department Rostov State Medical University (Rostov-on-Don, Russia; Sep 2020 – June 2021)
 * 2020 – 2021. _Laboratory Assistant_, Laboratory of the «Microbiology and Virology» department, Rostov State Medical University
   * Preparation of culture media, bacterial and fungal extraction and inoculation, cell culturing
   * Serial dilution of antibacterial and antimycotic agents
