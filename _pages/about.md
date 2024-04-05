@@ -12,7 +12,7 @@ I have a medical degree and I'm about to graduate as a bioinformatician. Since m
 
 Last year, I did a research internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The internship report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/). The result is published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
 
-I am now completing my studies at the Institute of Bioinformatics, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple utilities, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future. I have also completed 7 projects focusing on applied bioinformatics:<br>
+I am now completing my studies at the Bioinformatics Institute, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple utilities, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future. I have also completed 7 projects focusing on applied bioinformatics:<br>
   1. Variant calling of Escherichia coli WGS<br>
   2. Variant calling of deep sequencing data (Influenza A virus (H3N2) hemagglutinin gene)<br>
   3. De novo assembly of Escherichia coli genome<br>
@@ -20,8 +20,10 @@ I am now completing my studies at the Institute of Bioinformatics, and during th
   5. Genotyping and SNP annotation of human 23andMe data<br>
   6. RNA-seq data analysis for differential gene expression of Saccharomyces cerevisiae after 30 minutes of fermentation<br>
   7. Ancient metagenomes analysis examining human dental calculus<br>
+
 Detailed reports on them are available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). The lab journals can be found there as well by following the link to each specific project.<br>
 In addition, I really enjoyed studying phylogenetics, and I have described a complete phylogenetic research pipeline. This helps me to constantly remember all the skills I have learnt. You can find my contributions in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-6/).<br>
+My Researh Project at BI is about searching for indirect signs of HIV infection in cell-free DNA samples. The results will be published in this [repository](https://github.com/iliapopov17/The-shadow-of-HIV) be the beginning of May.<br>
 
 While working at Don State Technical University, I joined Igor Popov's group in Alexey Ermakov's lab. I applied all the knowledge and skills I learnt in order to achieve first-class results. The results of the work can be found in [publications](https://iliapopov17.github.io/publications/).<br>
 
