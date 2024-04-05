@@ -14,32 +14,34 @@ redirect_from:
 Education
 ======
 * Professional retraining program «Bioinformatics for Biologists», [Bioinformatics Institute](https://bioinf.me/en) (Saint Petersburg, Russia; Sep 2023 – May 2024)
+* 2024. _Retraining program_, [_Bioinformatics Institute_](https://bioinf.me/en), «Bioinformatics for Biologists»
   * Research project: The shadow of HIV - [GitHub](https://github.com/iliapopov17/The-shadow-of-HIV)
   * Study projects - [GitHub](https://github.com/iliapopov17/BI-Workshop-miniProjects)
   * Developed beginner-level tool [SequenceForge-Lite](https://github.com/iliapopov17/SequenceForge-Lite) and simple [EDA Python module](https://github.com/iliapopov17/MyAwesomeEDA)
-* M.D., [Rostov State Medical University](https://rostgmu.net/) (Rostov-on-Don, Russia; Sep 2017 – June 2023)
+* 2023. _M.D._, [_Rostov State Medical University_](https://rostgmu.net/), Pediatrics
   * Graduated with honors
-  * GPA: 4.85 (5.0 - max)
+  * GPA: 4.85 (5.0 – max)
 
 Work experience
 ======
-* Research Assistant, «Agrobiotechnology Centre», Don State Technical University (Rostov-on-Don, Russia; Sep 2022 – currently)
+* 2022 – now. _Research Assistant_, «Agrobiotechnology Centre», Don State Technical University
   * Papers & grant applications writing
   * DNA extraction and PCR
   * NGS data processing: metagenomic studies within gut microbiota of bats
 
-* Research Intern, Department of Food Technology, Bina Nusantara University (Jakarta, Indonesia; Feb 2023 – July 2023)
+* Feb 2023 – July 2023. _Research Intern_, Department of Food Technology, Bina Nusantara University
   * **Field work**: trip to East Nusa Tenggara Province: Kupang City & North Kodi Township. Participation in the organization of a clinical trial involving more than 100 children in 4 different groups. Collection of biological samples for data analysis (blood, stool)
   * **Dry lab work**: genome annotation of L. plantarum strain IS-10506; metagenomic data analysis; visualization of the results with publication-quality graphs
   * [GitHub](https://github.com/iliapopov17/PNMIM)
 
-* Laboratory Assistant, Histological laboratory, «Agrobiotechnology Centre», Don State Technical University (Rostov-on-Don, Russia; Sep 2021 – Aug 2022)
+* 2021 – 2022. _Laboratory Assistant_, Histological laboratory, «Agrobiotechnology Centre», Don State Technical University
   * Post-mortem examination of laboratory animals
   * Tissue processing: tissue fixation, embedding and microtomy
   * Staining of histological slices
   * Analysis and interpretation of histological slices
 
 * Laboratory Assistant, Laboratory of the «Microbiology and Virology» department Rostov State Medical University (Rostov-on-Don, Russia; Sep 2020 – June 2021)
+* 2020 – 2021. _Laboratory Assistant_, Laboratory of the «Microbiology and Virology» department, Rostov State Medical University
   * Preparation of culture media, bacterial and fungal extraction and inoculation, cell culturing
   * Serial dilution of antibacterial and antimycotic agents
   * Assessment of cytotoxicity (MTT test) and Minimum Inhibitory Concentration (spectrophotometry)
