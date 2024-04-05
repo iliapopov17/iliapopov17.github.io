@@ -1,6 +1,6 @@
 ---
 title: "The shadow of HIV"
-excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024)"
+excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024"
 collection: portfolio
 ---
 
