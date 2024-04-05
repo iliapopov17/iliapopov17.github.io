@@ -59,10 +59,10 @@ Skills
   * Databases (NCBI, UniProt, dbSNP, ClinVar, SNPedia, OMIM)
   * Analysis of NGS data:
     * Quality checking, trimming
-      * Genome assembly, genome annotation
-      * Haplogroups establishing, SNPs annotation
-      * RNA-seq data analysis for differential expression
-      * Analysis of 16s rRNA metagenomic data
+    * Genome assembly, genome annotation
+    * Haplogroups establishing, SNPs annotation
+    * RNA-seq data analysis for differential expression
+    * Analysis of 16s rRNA metagenomic data
 * Machine Learning Methods
   * Classical Machine Learning (kNN, linear models, clustering, decision tree, ensemble learning)
 * Phylogenetics
