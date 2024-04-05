@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Ilia Popov / Site Title"
+title                    : "Homepage of Ilia Popov / Bioinformatician / Medical Doctor"
 title_separator          : "-"
 name                     : &name "Ilia Popov"
 description              : &description "personal description"
@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "ilia_popov.png"
+  avatar           : "images/ilia_popov.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
