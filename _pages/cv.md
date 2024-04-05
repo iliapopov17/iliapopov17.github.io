@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+[CV in PDF format]('http://iliapopov17.github.io/files/Ilia Popov CV.pdf')
+
 {% include base_path %}
 
 Education
@@ -72,7 +74,7 @@ Skills
   * Work experience in microbiological and histological labs
 * Languages
   * Russian – Native
-  * English – Advanced, IELTS C1 – 8.0 (TRF: 23ID001367POPI010A)
+  * English – Advanced, [IELTS C1 – 8.0 (TRF: 23ID001367POPI010A)](http://iliapopov17.github.io/files/IELTS.pdf)
 
 Courses
 ======
