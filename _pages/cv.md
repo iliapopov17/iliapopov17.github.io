@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 * Professional retraining program «Bioinformatics for Biologists», [Bioinformatics Institute](https://bioinf.me/en) (Saint Petersburg, Russia; Sep 2023 – May 2024)
-  * Research project: The shadow of HIV: searching for indirect signs of HIV infection in cell free DNA samples - [GitHub](https://github.com/iliapopov17/The-shadow-of-HIV)
+  * Research project: The shadow of HIV - [GitHub](https://github.com/iliapopov17/The-shadow-of-HIV)
   * Study projects - [GitHub](https://github.com/iliapopov17/BI-Workshop-miniProjects)
   * Developed beginner-level tool [SequenceForge-Lite](https://github.com/iliapopov17/SequenceForge-Lite) and simple [EDA Python module](https://github.com/iliapopov17/MyAwesomeEDA)
 * M.D., [Rostov State Medical University](https://rostgmu.net/) (Rostov-on-Don, Russia; Sep 2017 – June 2023)

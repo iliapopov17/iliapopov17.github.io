@@ -10,15 +10,15 @@ redirect_from:
 Hi! My name is Ilia Popov (aka Ilya).<br>
 I have a medical degree and I'm about to graduate as a bioinformatician. Since my 2nd year of medical university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
 
-Last year, I did a research internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The internship report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/). The result is published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
+Last year, I did a research internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The internship report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/). The results are published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
 
-I am now completing my studies at the Bioinformatics Institute, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple utilities, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future. I have also completed 7 projects focusing on applied bioinformatics:<br>
-  1. Variant calling of Escherichia coli WGS<br>
-  2. Variant calling of deep sequencing data (Influenza A virus (H3N2) hemagglutinin gene)<br>
-  3. De novo assembly of Escherichia coli genome<br>
-  4. Tardigrade Ramazzottius varieornatus genome annotation and protein function prediction<br>
+I am now completing my studies at the Bioinformatics Institute, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple tools: [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future. I have also completed 7 projects focusing on applied bioinformatics:<br>
+  1. Variant calling of _Escherichia coli_ WGS<br>
+  2. Variant calling of deep sequencing data (_Influenza A virus_ (H3N2) hemagglutinin gene)<br>
+  3. De novo assembly of _Escherichia coli_ genome<br>
+  4. Tardigrade _Ramazzottius varieornatus_ genome annotation and protein function prediction<br>
   5. Genotyping and SNP annotation of human 23andMe data<br>
-  6. RNA-seq data analysis for differential gene expression of Saccharomyces cerevisiae after 30 minutes of fermentation<br>
+  6. RNA-seq data analysis for differential gene expression of _Saccharomyces cerevisiae_ after 30 minutes of fermentation<br>
   7. Ancient metagenomes analysis examining human dental calculus<br>
 
 Detailed reports on them are available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). The lab journals can be found there as well by following the link to each specific project.<br>
