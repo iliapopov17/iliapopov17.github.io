@@ -29,13 +29,16 @@ While working at Don State Technical University, I joined Igor Popov's group in 
 
 I really enjoy reading books, travelling and also cycling!<br>
 
-Favourite books:<br>
-* Paul de Kruif - Microbe Hunters<br>
-* Peter Talantov - 0.05. Evidence-based medicine from magic to the quest for immortality (RU)<br>
-* Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)<br>
-
 <details><summary>
-Countries and cities visited:
+Favourite books:
+</summary><br>
+<img src='/images/book covers/microbe-hunters-cover.jpg' alt="Paul de Kruif - Microbe Hunters">
+<img src='/images/book covers/evidence-based-medicine-cover.jpg' alt="Peter Talantov - 0.05. Evidence-based medicine from magic to the quest for immortality (RU)">
+<img src='/images/book covers/DMZ-cover.jpg' alt="Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)">
+</details>
+<br>
+<details><summary>
+Countries visited:
 </summary><br> 
 <iframe src="https://visitedplaces.com/embed/?map=world&projection=geoNaturalEarth1&theme=light-blue&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=RU&places=~ID_JP_SG_MY" style="width: 100%; height: 600px;"></iframe>
 </details>
