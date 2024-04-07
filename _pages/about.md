@@ -35,8 +35,7 @@ Favourite books:
 <img src='/images/book covers/microbe-hunters-cover.jpg' title="Paul de Kruif - Microbe Hunters" width="25%"/>
 <img src='/images/book covers/evidence-based-medicine-cover.jpg' title="Peter Talantov - 0.05. Evidence-based medicine from magic to the quest for immortality (RU)" width="25%"/>
 <img src='/images/book covers/DMZ-cover.jpg' title="Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)" width="25%"/>
-</details>
-
+</details><br>
 <details><summary>
 Countries visited:
 </summary><br> 
