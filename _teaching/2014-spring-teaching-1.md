@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
+title: "Lecture: Culture-independent methods for qualitative and quantitative microbiological detection and identification"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Guest lecture"
+permalink: /teaching/2023-summer-teaching-1
+venue: "BINUS University, Food Technology Department"
+date: 2023-06-12
+location: "Jakarta, Indonesia"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Lecture for 2nd year undergraduate students who are new to the study of microbiology on «Culture-independent methods for qualitative and quantitative microbiological detection and identification». Covered methods such as:<br>
+1. Polymerase Chain Reaction<br>
+2. DNA/RNA Hybridization<br>
+3. Fluoresence in situ hybridization<br>
+4. Mass spectrometry<br>
+5. Enzyme-linked immunosorbent assay<br>
+6. Next Generation Sequencing<br>
+As well as their advantages and disadvantages.<br>
+Each of the above methods was dealt with from a fundamental point of view only, without a detailed discussion of the various modifications of each, due to the introductory and expository nature of the lecture.<br>
+Materials of the lecture are available [here](http://iliapopov17.github.io/files/Lectures/Culture-independent_methods_for_qualitative_and_quantitative_microbiological_detection_and_identification.pdf)
