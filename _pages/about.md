@@ -35,11 +35,11 @@ Favourite books:<br>
 * Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)<br>
 
 <details><summary>
-<b>Countries and cities visited:</b>
+Countries and cities visited:
 </summary><br> 
-<iframe src="https://visitedplaces.com/embed/?map=world&projection=geoNaturalEarth1&theme=light-blue&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=RU&places=~ID_JP_SG_MY" style="width: 50%; height: 600px;"></iframe>
+<iframe src="https://visitedplaces.com/embed/?map=world&projection=geoNaturalEarth1&theme=light-blue&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=RU&places=~ID_JP_SG_MY" style="width: 100%; height: 600px;"></iframe>
 </details>
-
+<br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
 Sometimes I like to write detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), as I remember how hard my studies were for me, and I hope that in the near future my materials can help someone a lot.<br>
