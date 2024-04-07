@@ -1,6 +1,13 @@
 ---
 title: "BI: Study Projects"
-excerpt: "Study projects completed as part of the workshops undertaken during the training at the Bioinformatics Institute<br/><img src='/images/500x300/bioinf500x300.png'>"
+excerpt: "Study projects completed as part of the workshops undertaken during the training at the Bioinformatics Institute:<br/>
+1. Variant calling of <i>Escherichia coli</i> WGS<br/>
+2. Variant calling of deep sequencing data (<i>Influenza A virus</i> (H3N2) hemagglutinin gene)<br/>
+3. De novo assembly of <i>Escherichia coli</i> genome<br/>
+4. Tardigrade <i>Ramazzottius varieornatus</i> genome annotation and protein function prediction<br/>
+5. Genotyping and SNP annotation of human 23andMe data<br/>
+6. RNA-seq data analysis for differential gene expression of <i>Saccharomyces cerevisiae</i> after 30 minutes of fermentation<br/>
+7. Ancient metagenomes analysis examining human dental calculus<br/><img src='/images/500x300/bioinf500x300.png'>"
 collection: portfolio
 ---
 
