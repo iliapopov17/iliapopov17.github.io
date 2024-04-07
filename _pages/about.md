@@ -37,9 +37,11 @@ List of favourite books
 <a href="https://www.amazon.com/%D1%81%D0%B5%D0%B2%D0%B5%D1%80%D1%83-%D0%BE%D1%82-38-%D0%B9-%D0%BF%D0%B0%D1%80%D0%B0%D0%BB%D0%BB%D0%B5%D0%BB%D0%B8-Russian-ebook/dp/B087N23HHR/ref=sr_1_1?crid=5MMVVF9XRLIT&dib=eyJ2IjoiMSJ9.989v5a11yql-sBJGkaXEVgoBTIOPgwAm233XdDEGqcyk30nk5j7ieBpzpEtc-nIAitxjSyYyv84FAtNsuFxHqox_VnbCseoB2fa1UMR3xw13X0mf3C7KYOPzz2W1PVAXdMQlNrfsdFPPYOQKIUeGRdFO_ganiPSiUemykX_4EzO1WdOHTuCuzCbJPJyKU1YJ6aInEYteHk1K9MLqwdmp3yUONAE0fwzPgEM3ycUA46M.rpfkNeFLb3QyVKgF2yP5HT_lyzxhSYIOmKuM_6yabE0&dib_tag=se&keywords=%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9+%D0%BB%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%D0%B2&qid=1712521488&s=books&sprefix=%D0%B0%D0%BD%D0%B4%D1%80%D0%B5%D0%B9+%D0%BB%D0%B0%D0%BD%D1%8C%D0%BA%D0%BE%2Cstripbooks-intl-ship%2C205&sr=1-1"><img src='/images/book covers/DMZ-cover.jpg' title="Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)" width="25%"/></a><br/>
 </details><br>
 <details><summary>
-Map of visited countries
+Map of visited places
 </summary><br>
-<iframe src="https://visitedplaces.com/embed/?map=world&projection=geoNaturalEarth1&theme=light-blue&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=RU&places=~ID_JP_SG_MY" style="width: 100%; height: 600px;"></iframe>
+<iframe width=800 height=450
+src="https://beeneverywhere.net/usermap/8484?width=800&height=450"
+title="test titile"></iframe>
 </details>
 <br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
