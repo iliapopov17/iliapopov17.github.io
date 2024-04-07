@@ -1,6 +1,6 @@
 ---
 title: "BI: Study Projects"
-excerpt: "Study projects completed as part of the workshops undertaken during the training at the Bioinformatics Institute"
+excerpt: "Study projects completed as part of the workshops undertaken during the training at the Bioinformatics Institute<br/><img src='images/500x300/bioinf500x300.png'>"
 collection: portfolio
 ---
 

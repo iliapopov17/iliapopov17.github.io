@@ -1,6 +1,6 @@
 ---
 title: "BI: Phylogenetics"
-excerpt: "The complete pipeline of simple research in phylogenetics: from working with NCBI (and other databases) to building trees, evaluating them, and getting some worthwhile results"
+excerpt: "The complete pipeline of simple research in phylogenetics: from working with NCBI (and other databases) to building trees, evaluating them, and getting some worthwhile results<br/><img src='images/500x300/phylo500x300.png'>"
 collection: portfolio
 ---
 
