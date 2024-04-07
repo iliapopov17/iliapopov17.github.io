@@ -27,5 +27,19 @@ While working at Don State Technical University, I joined Igor Popov's group in 
 
 ### Hobbies
 
-In my spare time I like to read books and also go cycling.<br>
+I really enjoy reading books, travelling and also cycling!<br>
+
+Favourite books:<br>
+* Paul de Kruif - Microbe Hunters<br>
+* Peter Talantov - 0.05. Evidence-based medicine from magic to the quest for immortality (RU)<br>
+* Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)<br>
+
+Countries and cities visited:<br>
+* Indonesia: Jakarta, Kupang, Sumba island, Bandung, Bali<br>
+* Malaysia, Kuala-Lumpur<br>
+* Singapore<br>
+* Japan, Tokyo<br>
+
+The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
+
 Sometimes I like to write detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), as I remember how hard my studies were for me, and I hope that in the near future my materials can help someone a lot.<br>
