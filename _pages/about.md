@@ -34,11 +34,11 @@ Favourite books:<br>
 * Peter Talantov - 0.05. Evidence-based medicine from magic to the quest for immortality (RU)<br>
 * Andrei Lankov - North of the 38th Parallel: How People Live in the DPRK (RU)<br>
 
-Countries and cities visited:<br>
-* Indonesia: Jakarta, Kupang, Sumba island, Bandung, Bali<br>
-* Malaysia, Kuala-Lumpur<br>
-* Singapore<br>
-* Japan, Tokyo<br>
+<details><summary>
+<b>Countries and cities visited:</b>
+</summary><br> 
+<iframe src="https://visitedplaces.com/embed/?map=world&projection=geoNaturalEarth1&theme=light-blue&water=0&graticule=0&names=1&duration=2000&placeduration=100&slider=0&autoplay=0&autozoom=none&autostep=0&home=RU&places=~ID_JP_SG_MY" style="width: 50%; height: 600px;"></iframe>
+</details>
 
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
