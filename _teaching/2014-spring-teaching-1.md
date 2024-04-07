@@ -8,7 +8,9 @@ date: 2023-06-12
 location: "Jakarta, Indonesia"
 ---
 
-Lecture for 2nd year undergraduate students who are new to the study of microbiology on «Culture-independent methods for qualitative and quantitative microbiological detection and identification». Covered methods such as:<br>
+Lecture for 2nd year undergraduate students who are new to the study of microbiology on «Culture-independent methods for qualitative and quantitative microbiological detection and identification».<br>
+
+Covered methods such as:<br>
 1. Polymerase Chain Reaction<br>
 2. DNA/RNA Hybridization<br>
 3. Fluoresence in situ hybridization<br>
