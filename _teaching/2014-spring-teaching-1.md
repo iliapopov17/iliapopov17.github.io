@@ -15,6 +15,7 @@ Lecture for 2nd year undergraduate students who are new to the study of microbio
 4. Mass spectrometry<br>
 5. Enzyme-linked immunosorbent assay<br>
 6. Next Generation Sequencing<br>
+
 As well as their advantages and disadvantages.<br>
 Each of the above methods was dealt with from a fundamental point of view only, without a detailed discussion of the various modifications of each, due to the introductory and expository nature of the lecture.<br>
 Materials of the lecture are available [here](http://iliapopov17.github.io/files/Lectures/Culture-independent_methods_for_qualitative_and_quantitative_microbiological_detection_and_identification.pdf)
