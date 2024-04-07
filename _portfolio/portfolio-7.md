@@ -1,6 +1,6 @@
 ---
 title: "Manuals: NGS Data Analysis"
-excerpt: "Manuals on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!"
+excerpt: "Manuals on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!<br/><img src='/images/500x300/NGS-Data-Analysis-Manual500x300.png'>"
 collection: portfolio
 ---
 
