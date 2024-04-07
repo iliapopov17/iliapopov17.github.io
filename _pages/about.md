@@ -16,18 +16,10 @@ Last year, I did a research internship in Indonesia studying the composition and
 
 ### Bioinformatics Institute
 
-I am now completing my studies at the Bioinformatics Institute, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple tools: [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future. I have also completed 7 projects focusing on applied bioinformatics:<br>
-  1. Variant calling of _Escherichia coli_ WGS<br>
-  2. Variant calling of deep sequencing data (_Influenza A virus_ (H3N2) hemagglutinin gene)<br>
-  3. De novo assembly of _Escherichia coli_ genome<br>
-  4. Tardigrade _Ramazzottius varieornatus_ genome annotation and protein function prediction<br>
-  5. Genotyping and SNP annotation of human 23andMe data<br>
-  6. RNA-seq data analysis for differential gene expression of _Saccharomyces cerevisiae_ after 30 minutes of fermentation<br>
-  7. Ancient metagenomes analysis examining human dental calculus<br>
-
-Detailed reports on them are available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). The lab journals can be found there as well by following the link to each specific project.<br>
+I am now completing my studies at the Bioinformatics Institute, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple tools: [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future.<br>
+I have also completed 7 projects focusing on applied bioinformatics. Detailed reports on them are available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). The lab journals can be found there as well by following the link to each specific project.<br>
 In addition, I really enjoyed studying phylogenetics, and I have described a complete phylogenetic research pipeline. This helps me to constantly remember all the skills I have learnt. You can find my contributions in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-6/).<br>
-My Researh Project at BI is about searching for indirect signs of HIV infection in cell-free DNA samples. The results will be published in this [repository](https://github.com/iliapopov17/The-shadow-of-HIV) be the beginning of May.<br>
+My Researh Project is about searching for indirect signs of HIV infection in cell-free DNA samples. The results will be published in this [repository](https://github.com/iliapopov17/The-shadow-of-HIV) be the beginning of May.<br>
 
 ### Don State Technical University
 
