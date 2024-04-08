@@ -29,3 +29,5 @@ collection: portfolio
 - Finds motifs in nucleic acids sequences
 - Translates RNA sequence to amino acid
 - Calculates molecular weight of amino acid sequence
+<br>
+[Code & full README](https://github.com/iliapopov17/SequenceForge-Lite)

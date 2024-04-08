@@ -20,3 +20,5 @@ collection: portfolio
 - **Missing Values Analysis**: Investigate missing values in your dataset, including total missing values, rows with missing values, and columns with missing values.
 - **Duplicate Rows Detection**: Identify duplicate rows in your dataset.
 - **Visualizations**: Generate informative visualizations including bar plots of missing values by variable, correlation heatmap for numerical features, and histograms with boxplots for numerical features.
+<br>
+[Code & full README](https://github.com/iliapopov17/MyAwesomeEDA)
