@@ -41,8 +41,8 @@ List of favourite books
 <details><summary>
 Map of visited places
 </summary><br>
-<iframe width=800 height=450
-src="https://beeneverywhere.net/usermap/8484?width=800&height=450"
+<iframe width=600 height=450
+src="https://beeneverywhere.net/usermap/8484?width=600&height=450"
 title="test titile"></iframe>
 </details>
 <br>
