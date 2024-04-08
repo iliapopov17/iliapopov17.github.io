@@ -16,7 +16,7 @@ Last year, I did a research internship in Indonesia studying the composition and
 
 ### Studying at the Bioinformatics Institute
 
-Currently, I’m finalizing my studies at the Bioinformatics Institute. I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/), and plan to further enhance my Python skills. I’ve completed seven applied bioinformatics projects, with detailed reports and lab journals available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). I've thoroughly explored phylogenetics, outlining a comprehensive research pipeline, documented in my [contributions](https://iliapopov17.github.io/portfolio/portfolio-6/). My ongoing research project involves detecting indirect signs of HIV infection in cell-free DNA samples, with results to be published [soon](https://github.com/iliapopov17/The-shadow-of-HIV).
+Currently, I’m finalizing my studies at the Bioinformatics Institute. I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/), and plan to further enhance my Python skills. I’ve completed seven applied bioinformatics projects, with detailed reports and lab journals available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). I've thoroughly explored phylogenetics, outlining a complete research pipeline, documented in my [contributions](https://iliapopov17.github.io/portfolio/portfolio-6/). My ongoing research project involves detecting indirect signs of HIV infection in cell-free DNA samples, with results to be published [soon](https://github.com/iliapopov17/The-shadow-of-HIV).
 
 ### Working at Don State Technical University
 
@@ -45,4 +45,4 @@ title="test titile"></iframe>
 <br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
-Occasionally, I enjoy crafting comprehensive [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.<br>
+Occasionally, I enjoy writing detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.<br>
