@@ -14,16 +14,13 @@ I have a medical degree and I'm about to graduate as a bioinformatician. Since m
 
 Last year, I did a research internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The internship report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/). The results are published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
 
-### Bioinformatics Institute
+### Studying at the Bioinformatics Institute
 
-I am now completing my studies at the Bioinformatics Institute, and during this time I have learnt a lot of new things as well as consolidated previously learnt skills. For example, I have written two simple tools: [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/). I plan to further develop my skills in Python and will probably write a more complex utility in the future.<br>
-I have also completed 7 projects focusing on applied bioinformatics. Detailed reports on them are available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). The lab journals can be found there as well by following the link to each specific project.<br>
-In addition, I really enjoyed studying phylogenetics, and I have described a complete phylogenetic research pipeline. This helps me to constantly remember all the skills I have learnt. You can find my contributions in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-6/).<br>
-My Researh Project is about searching for indirect signs of HIV infection in cell-free DNA samples. The results will be published in this [repository](https://github.com/iliapopov17/The-shadow-of-HIV) be the beginning of May.<br>
+Currently, I’m finalizing my studies at the Bioinformatics Institute. I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/), and plan to further enhance my Python skills. I’ve completed seven applied bioinformatics projects, with detailed reports and lab journals available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). I've thoroughly explored phylogenetics, outlining a comprehensive research pipeline, documented in my [contributions]((https://iliapopov17.github.io/portfolio/portfolio-6/)). My ongoing research project involves detecting indirect signs of HIV infection in cell-free DNA samples, with results to be published [soon](https://github.com/iliapopov17/The-shadow-of-HIV).
 
-### Don State Technical University
+### Working at Don State Technical University
 
-While working at Don State Technical University, I joined Igor Popov's group in Alexey Ermakov's lab. I applied all the knowledge and skills I learnt in order to achieve first-class results. The results of the work can be found in [publications](https://iliapopov17.github.io/publications/).<br>
+At Don State Technical University, I collaborated with Igor Popov’s group in Alexey Ermakov’s lab, applying my knowledge and skills to achieve top-tier results. The results of the work can be found in [publications](https://iliapopov17.github.io/publications/). Currently working on the study on the phylogenetics of orthochantaviruses isolated from biological samples of bats.<br>
 
 ### Hobbies
 
@@ -48,4 +45,4 @@ title="test titile"></iframe>
 <br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
-Sometimes I like to write detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), as I remember how hard my studies were for me, and I hope that in the near future my materials can help someone a lot.<br>
+Occasionally, I enjoy crafting comprehensive [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.<br>
