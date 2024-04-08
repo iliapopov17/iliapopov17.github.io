@@ -1,6 +1,6 @@
 ---
 title: "The shadow of HIV"
-excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024<br/><a href="https://iliapopov17.github.io/portfolio/portfolio-2/"><img src='/images/500x300/Current_status_Shadow500x300.svg' title="Bioinformatics Institute Research Project: The shadow of HIV"/></a>
+excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024<br/><a href="https://iliapopov17.github.io/portfolio/portfolio-2/"><img src='/images/500x300/Current_status_Shadow500x300.svg' title="Bioinformatics Institute Research Project - The shadow of HIV"/></a>
 collection: portfolio
 ---
 
