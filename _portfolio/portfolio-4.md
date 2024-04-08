@@ -4,11 +4,11 @@ excerpt: "Python module that provides a set of tools for exploring and analyzing
 collection: portfolio
 ---
 
-[Code & full README](https://github.com/iliapopov17/MyAwesomeEDA)
-
 <img src='/images/MyAwesomeEDA.png' width="25%">
 
 > This Python module provides a set of tools for exploring and analyzing your dataset. Whether you're a data scientist, analyst, or enthusiast, this module will help you gain insights into your data quickly and efficiently.
+
+[Code & full README](https://github.com/iliapopov17/MyAwesomeEDA)
 
 ## Features
 - **Welcome Gif**: A fun welcome gif to kick off your exploration.
@@ -20,5 +20,3 @@ collection: portfolio
 - **Missing Values Analysis**: Investigate missing values in your dataset, including total missing values, rows with missing values, and columns with missing values.
 - **Duplicate Rows Detection**: Identify duplicate rows in your dataset.
 - **Visualizations**: Generate informative visualizations including bar plots of missing values by variable, correlation heatmap for numerical features, and histograms with boxplots for numerical features.
-<br>
-[Code & full README](https://github.com/iliapopov17/MyAwesomeEDA)
