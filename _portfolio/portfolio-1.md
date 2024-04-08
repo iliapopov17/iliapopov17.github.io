@@ -1,6 +1,6 @@
 ---
 title: "Pediatric Nutritional Medicine and Intestinal Microbiology"
-excerpt: "Research Internship in Indonesia (Bina Nusantara University; Feb 2023 – July 2023)<br/><img src='/images/500x300/Clinical_trial_design500x300.png'> width="18%"/>
+excerpt: "Research Internship in Indonesia (Bina Nusantara University; Feb 2023 – July 2023)<br/><img src='/images/Clinical_trial_design.jpg'> width="25%"/>
 collection: portfolio
 ---
 
