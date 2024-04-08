@@ -14,13 +14,16 @@ collection: portfolio
 ### FASTQ Filtering
 - Filter FASTQ files based on GC content, sequence length, and quality score.
 - Specify custom ranges for GC content and sequence length.
-- Set a minimum quality score threshold for sequences.
+- Set a minimum quality score threshold for sequences.<br>
+
 ### FASTA File Manipulation
 - Convert multiline FASTA files to one-line format.
-- Shift the start position of one-line FASTA sequences by a specified amount.
+- Shift the start position of one-line FASTA sequences by a specified amount.<br>
+
 ### BLAST Output Parsing
 - Extract the top hit for each query from BLAST output files.
-- Results are sorted alphabetically for easy analysis.
+- Results are sorted alphabetically for easy analysis.<br>
+
 ### DNA, RNA & amino acid classes
 - Calculates GC content in DNA and RNA sequences
 - Prints complement sequence for DNA
@@ -28,6 +31,6 @@ collection: portfolio
 - Prints RNA sequence in codons
 - Finds motifs in nucleic acids sequences
 - Translates RNA sequence to amino acid
-- Calculates molecular weight of amino acid sequence
+- Calculates molecular weight of amino acid sequence<br>
 <br>
 [Code & full README](https://github.com/iliapopov17/SequenceForge-Lite)
