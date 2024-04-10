@@ -9,7 +9,6 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Ilia Popov"
-subtitle                 : "Bioinformatician / Medical Doctor"
 title_separator          : "-"
 name                     : &name "Ilia Popov"
 description              : &description "personal description"
