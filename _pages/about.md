@@ -1,5 +1,4 @@
 ---
-layout: archive
 permalink: /
 title: "About Me"
 author_profile: true
@@ -7,6 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
+{% include base_path %}
 
 Hi! My name is Ilia Popov (aka Ilya).<br>
 I have a medical degree and I'm about to graduate as a bioinformatician. Since my 2nd year of medical university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
