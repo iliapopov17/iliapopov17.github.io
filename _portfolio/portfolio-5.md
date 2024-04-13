@@ -14,7 +14,9 @@ collection: portfolio
 
 ## Project 8. RepSeq Sudoku
 
-For [Project 8](Project%208) we delved into the intricacies of T-cell receptor β-chain repertoire diversity across CMV+ and CMV- donors. Utilizing `RepSeq` analysis, 16 TCRB samples were annotated.
+For [Project 8](https://github.com/iliapopov17/BI-Workshop-miniProjects/tree/main/Project%208) we delved into the intricacies of T-cell receptor β-chain repertoire diversity across CMV+ and CMV- donors. Utilizing `RepSeq` analysis, 16 TCRB samples were annotated.
+
+[Download report](http://iliapopov17.github.io/files/Study-projects/BI_Project_8_Popov.pdf)
 
 ## Project 7. Dead Man's Teeth
 
