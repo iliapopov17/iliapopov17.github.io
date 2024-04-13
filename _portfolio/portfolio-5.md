@@ -7,9 +7,14 @@ excerpt: "Study projects completed as part of the workshops undertaken during th
 4. Tardigrade <i>Ramazzottius varieornatus</i> genome annotation and protein function prediction<br/>
 5. Genotyping and SNP annotation of human 23andMe data<br/>
 6. RNA-seq data analysis for differential gene expression of <i>Saccharomyces cerevisiae</i> after 30 minutes of fermentation<br/>
-7. Ancient metagenomes analysis examining human dental calculus<br/><img src='/images/500x300/bioinf500x300.png'>"
+7. Ancient metagenomes analysis examining human dental calculus<br/>
+8. Annotation of the immune repertoire derived from the T-cell population in a relatively healthy donor<br/><img src='/images/500x300/bioinf500x300.png'>"
 collection: portfolio
 ---
+
+## Project 8. RepSeq Sudoku
+
+For [Project 8](Project%208) we delved into the intricacies of T-cell receptor β-chain repertoire diversity across CMV+ and CMV- donors. Utilizing `RepSeq` analysis, 16 TCRB samples were annotated.
 
 ## Project 7. Dead Man's Teeth
 
