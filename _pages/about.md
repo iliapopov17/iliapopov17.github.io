@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hi! My name is Ilia Popov (aka Ilya).<br>
-I have a medical degree and I'm about to graduate as a bioinformatician. Since my 2nd year of medical university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
+I have a medical degree and I'm about to graduate as a bioinformatician. Since my 2<sup>nd</sup> year of university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
 
 ### Research Internship
 
@@ -45,4 +45,4 @@ title="test titile"></iframe>
 <br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
-Occasionally, I enjoy writing detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.<br>
+Occasionally, I enjoy writing detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.
