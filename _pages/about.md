@@ -12,7 +12,7 @@ I have a medical degree and I'm about to graduate as a bioinformatician. Since m
 
 ### Research Internship
 
-Last year, I did a research internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The internship report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/). The results are published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
+Last year, I did an internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/), the results are published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
 
 ### Studying at the Bioinformatics Institute
 
@@ -20,11 +20,11 @@ Currently, I’m finalizing my studies at the Bioinformatics Institute. I’ve d
 
 ### Working at Don State Technical University
 
-At Don State Technical University, I collaborated with Igor Popov’s group in Alexey Ermakov’s lab, applying my knowledge and skills to achieve top-tier results. The results of the work can be found in [publications](https://iliapopov17.github.io/publications/). Currently working on the study on the phylogenetics of orthohantaviruses isolated from biological samples of bats.<br>
+At Don State Technical University, I collaborated with Igor Popov’s group in Alexey Ermakov’s lab, applying my knowledge and skills to achieve top-tier results. Currently working on the study on the phylogenetics of orthohantaviruses isolated from biological samples of bats.<br>
 
 ### Hobbies
 
-I really enjoy reading books, travelling and also cycling!<br>
+I really enjoy reading books, travelling and cycling!<br>
 
 <details><summary>
 List of favourite books
