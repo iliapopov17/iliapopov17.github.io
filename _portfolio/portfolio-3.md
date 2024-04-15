@@ -10,7 +10,7 @@ collection: portfolio
 
 [Code & full README](https://github.com/iliapopov17/SequenceForge-Lite)
 
-<a href="https://github.com/iliapopov17/SequenceForge-Lite"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a> Code & full README
+<a href="https://github.com/iliapopov17/SequenceForge-Lite"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a>
 
 ## Features
 ### FASTQ Filtering
