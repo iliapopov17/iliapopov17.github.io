@@ -10,6 +10,8 @@ collection: portfolio
 
 [Code & full README](https://github.com/iliapopov17/SequenceForge-Lite)
 
+<a href="https://github.com/iliapopov17/SequenceForge-Lite"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a> Code & full README
+
 ## Features
 ### FASTQ Filtering
 - Filter FASTQ files based on GC content, sequence length, and quality score
