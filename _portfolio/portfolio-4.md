@@ -8,7 +8,7 @@ collection: portfolio
 
 > This Python module provides a set of tools for exploring and analyzing your dataset. Whether you're a data scientist, analyst, or enthusiast, this module will help you gain insights into your data quickly and efficiently.
 
-[Code & full README](https://github.com/iliapopov17/MyAwesomeEDA)
+<a href="https://github.com/iliapopov17/MyAwesomeEDA"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a>
 
 ## Features
 - **Welcome Gif**: A fun welcome gif to kick off your exploration.

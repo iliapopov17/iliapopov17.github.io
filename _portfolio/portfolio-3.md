@@ -8,8 +8,6 @@ collection: portfolio
 
 > SequenceForge-Lite is a lightweight tool designed to work with biological sequence data, providing various functionalities for filtering FASTQ files and manipulating FASTA files. Additionally, it offers utilities for parsing BLAST output files.
 
-[Code & full README](https://github.com/iliapopov17/SequenceForge-Lite)
-
 <a href="https://github.com/iliapopov17/SequenceForge-Lite"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a>
 
 ## Features

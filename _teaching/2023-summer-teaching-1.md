@@ -20,4 +20,5 @@ Covered methods such as:<br>
 
 As well as their advantages and disadvantages.<br>
 Each of the above methods was dealt with from a fundamental point of view only, without a detailed discussion of the various modifications of each, due to the introductory and expository nature of the lecture.<br>
-[Download materials of the lecture](http://iliapopov17.github.io/files/Lectures/Culture-independent_methods_for_qualitative_and_quantitative_microbiological_detection_and_identification.pdf)
+
+<a href="http://iliapopov17.github.io/files/Lectures/Culture-independent_methods_for_qualitative_and_quantitative_microbiological_detection_and_identification.pdf"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i> Download materials of the lecture </a>
