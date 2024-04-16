@@ -1,10 +1,14 @@
 ---
 title: "Manuals: NGS Data Analysis"
-excerpt: "Manuals on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!<br/><img src='/images/500x300/NGS-Data-Analysis-Manual500x300.png'>"
+excerpt: "Manuals on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!<br/><img src='/images/NGS analysis workflow.svg' width='500px'>"
 collection: portfolio
 ---
 
 Please also visit the initial [repository](https://github.com/iliapopov17/NGS-Data-Analysis-Manual). There is a guide how to install and activate the needed conda envinronment.
+
+<img src='/images/NGS analysis workflow.svg'>
+
+_Typical workflow of NGS data analysis_
 
 ## Much more to be disclosured soon:
 - Reference-free approach in the comparative analysis of metagenomic data
