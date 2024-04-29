@@ -8,7 +8,7 @@ author_profile: false
 {% include base_path %}
 {% include toc %}
 
-### Import modules
+## Import modules
 
 **_Input_**
 
@@ -17,7 +17,7 @@ from bio_files_processor import *
 from sequence_forge import *
 ```
 
-### Example of using the `convert_multiline_fasta_to_online` function
+## Example of using the `convert_multiline_fasta_to_online` function
 
 **_Input_**
 
@@ -65,7 +65,7 @@ ACGGCCATAGGACTTTGAAAGCACCGCATCCCGTCCGATCTGCGAAGTTAACCAAGATGCCGCCTGGTTAGTACCATGGT
 TTGGCTTCTTAGAGGGACTTTTGATGTTTAATCAAAGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGAGCCCTTGGGAGTGGTCCATTTGAGCCGGCAACGGCACGTTTGGACTGCAAACTTGGGCAAACTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGT
 ```
 
-### Example of using the `change_fasta_start_pos` function
+## Example of using the `change_fasta_start_pos` function
 
 **_Input_**
 
@@ -96,7 +96,7 @@ GACTTTGAAAGCACCGCATCCCGTCCGATCTGCGAAGTTAACCAAGATGCCGCCTGGTTAGTACCATGGTGGGGGACCAC
 AGAGGGACTTTTGATGTTTAATCAAAGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGAGCCCTTGGGAGTGGTCCATTTGAGCCGGCAACGGCACGTTTGGACTGCAAACTTGGGCAAACTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTGGCTTCTT
 ```
 
-### Example of using the `parse_blast_output` function
+## Example of using the `parse_blast_output` function
 
 **_Input_**
 
@@ -126,7 +126,7 @@ DUF1380 family protein [Enterobacteriaceae]
 DUF4158 domain-containing protein [Klebsiella pneumoniae]
 ```
 
-### Example of using the `fastq_filter` function
+## Example of using the `fastq_filter` function
 
 **_Input_**
 
@@ -171,7 +171,7 @@ ATCTTTCTCTCTCTGCTGCATTCTCCGCTTCAGCTCCTCAATTTCAATCA
 GGGGGGEDGGFEGDGCGGBCEFGGGGFBFGGEGGGGGEGFCFEEGGFEDB
 ```
 
-### Example usage of `DNASequence` class
+## Example usage of `DNASequence` class
 
 **_Input_**
 
@@ -199,7 +199,7 @@ Transcribed RNA Sequence: UGGCCGAUUAGCCGA
 Indexes of CGG motif occurrences: [2, 10]
 ```
 
-### Example usage of `RNASequence` class
+## Example usage of `RNASequence` class
 
 **_Input_**
 
@@ -227,7 +227,7 @@ Indexes of GCC motif occurrences: [2, 10]
 Tranlated to Amino Acid Sequence: WPISR
 ```
 
-### Example usage of `AminoAcidSequence` class
+## Example usage of `AminoAcidSequence` class
 
 **_Input_**
 
@@ -248,7 +248,7 @@ Length: 5
 Molecular Weight: 729.8299999999999
 ```
 
-### Testing RandomForestClassifierCustom
+## Testing RandomForestClassifierCustom
 
 Import needed library and module
 
