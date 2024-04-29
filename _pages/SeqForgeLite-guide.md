@@ -9,6 +9,8 @@ author_profile: false
 {% include base_path %}
 {% include toc %}
 
+<a href="https://github.com/iliapopov17/SequenceForge-Lite"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
+
 ## Installation
 
 ```bash
