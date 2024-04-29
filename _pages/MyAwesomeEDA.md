@@ -1,5 +1,5 @@
 ---
-permalink: /MyAwesomeEDA-Guide/
+permalink: /MyAwesomeEDA/
 title: "MyAwesomeEDA Usage Guide"
 modified: 2024-04-29
 MAE_profile: true

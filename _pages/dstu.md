@@ -1,5 +1,5 @@
 ---
-permalink: /DSTU-Guide/
+permalink: /dstu/
 title: "DSTU Usage Guide"
 modified: 2024-04-29
 DSTU_profile: true
