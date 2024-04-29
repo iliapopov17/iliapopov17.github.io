@@ -1,0 +1,18 @@
+{% include base_path %}
+
+{% if page.MAE and site.data.MAEs[page.MAE] %}
+  {% assign MAE = site.data.MAEs[page.MAE] %}{% else %}{% assign MAE = site.MAE %}
+{% endif %}
+
+<div class="utility-profile">
+    <div class="utility__logo">
+      <img src="/images/MyAwesomeEDA.png" alt="Utility Logo" class="utility__logo--image">
+    </div>
+    
+    <div class="utility__content">
+      <h3 class="utility__name">SequenceForge-Lite</h3>
+      <p class="utility__description">Simple EDA module.</p>
+    </div>
+  </div>
+
+  

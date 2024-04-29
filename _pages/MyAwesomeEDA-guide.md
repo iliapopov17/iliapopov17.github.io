@@ -2,6 +2,7 @@
 permalink: /MyAwesomeEDA-Guide/
 title: "MyAwesomeEDA Usage Guide"
 modified: 2024-04-29
+MAE_profile: true
 author_profile: false
 ---
 
