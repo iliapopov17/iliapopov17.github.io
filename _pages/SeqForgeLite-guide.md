@@ -2,7 +2,7 @@
 permalink: /SequenceForge-Lite-Guide/
 title: "SequenceForge-Lite Usage Guide"
 modified: 2024-04-29
-author_profile: false
+SFL_profile: true
 ---
 
 {% include toc %}
