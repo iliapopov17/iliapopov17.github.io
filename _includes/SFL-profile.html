@@ -1,5 +1,9 @@
 {% include base_path %}
 
+{% if page.SFL and site.data.SFLs[page.SFL] %}
+  {% assign SFL = site.data.SFLs[page.SFL] %}{% else %}{% assign SFL = site.SFL %}
+{% endif %}
+
 <div class="utility-profile">
     <div class="utility__logo">
       <img src="/images/SequenceForge-Lite.png" alt="Utility Logo" class="utility__logo--image">
