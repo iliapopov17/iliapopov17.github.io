@@ -18,7 +18,7 @@ git clone https://github.com/iliapopov17/SequenceForge-Lite.git && cd SequenceFo
 ```
 
 ```bash
-pip install biopython
+pip install -r requirements.txt
 ```
 
 ## Import modules
