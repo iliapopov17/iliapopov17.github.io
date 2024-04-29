@@ -345,10 +345,10 @@ Wall time: 171 ms
 Time comparison (CPU times)
 
 Time comparison (CPU times)
-| |fit|predict|
-|-|-|-|
-|n_jobs=1|9.44 s|172 ms|
-|n_jobs=2|109 ms|78.1 ms|
+|n_jobs|fit   |predict|
+|------|------|-------|
+|1     |9.44 s|172 ms |
+|2     |109 ms|78.1 ms|
 
 Finally, check that the resulting predictions match
 
