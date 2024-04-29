@@ -3,9 +3,9 @@ permalink: /SequenceForge-Lite-Guide/
 title: "SequenceForge-Lite Usage Guide"
 modified: 2024-04-29
 author_profile: false
+{% include SFL-profile.html %}
 ---
 
-{% include SFL-profile.html %}
 {% include toc %}
 
 ## Installation
