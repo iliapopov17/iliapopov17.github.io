@@ -8,6 +8,16 @@ author_profile: false
 {% include base_path %}
 {% include toc %}
 
+## Installation
+
+```bash
+git clone https://github.com/iliapopov17/SequenceForge-Lite.git && cd SequenceForge-Lite
+```
+
+```bash
+pip install biopython
+```
+
 ## Import modules
 
 **_Input_**
@@ -17,11 +27,11 @@ from bio_files_processor import *
 from sequence_forge import *
 ```
 
-## Example of using the `convert_multiline_fasta_to_online` function
+## Convert multiline fasta to online
 
 **_Input_**
 
-```python
+```
 ! head -6 demo_data/example_multiline_fasta.fasta
 ```
 
@@ -52,7 +62,7 @@ Converted multiline FASTA to one-line FASTA. Saved as demo_data/example_oneline_
 
 **_Input_**
 
-```python
+```
 ! head -4 demo_data/example_oneline_fasta.fasta
 ```
 
@@ -65,7 +75,7 @@ ACGGCCATAGGACTTTGAAAGCACCGCATCCCGTCCGATCTGCGAAGTTAACCAAGATGCCGCCTGGTTAGTACCATGGT
 TTGGCTTCTTAGAGGGACTTTTGATGTTTAATCAAAGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGAGCCCTTGGGAGTGGTCCATTTGAGCCGGCAACGGCACGTTTGGACTGCAAACTTGGGCAAACTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGT
 ```
 
-## Example of using the `change_fasta_start_pos` function
+## Change fasta start position
 
 **_Input_**
 
@@ -83,7 +93,7 @@ Shifted FASTA sequence saved to demo_data/example_oneline_fasta_shifted.fasta
 
 **_Input_**
 
-```python
+```
 ! head -4 demo_data/example_oneline_fasta_shifted.fasta
 ```
 
@@ -96,7 +106,7 @@ GACTTTGAAAGCACCGCATCCCGTCCGATCTGCGAAGTTAACCAAGATGCCGCCTGGTTAGTACCATGGTGGGGGACCAC
 AGAGGGACTTTTGATGTTTAATCAAAGGAAGTTTGAGGCAATAACAGGTCTGTGATGCCCTTAGATGTTCTGGGCCGCACGCGCGCTACACTGAGCCCTTGGGAGTGGTCCATTTGAGCCGGCAACGGCACGTTTGGACTGCAAACTTGGGCAAACTTGGTCATTTAGAGGAAGTAAAAGTCGTAACAAGGTTTGGCTTCTT
 ```
 
-## Example of using the `parse_blast_output` function
+## Parse blast output
 
 **_Input_**
 
@@ -113,7 +123,7 @@ Best BLAST results saved to demo_data/example_blast_results_parsed.txt
 
 **_Input_**
 
-```python
+```
 ! head -4 demo_data/example_blast_results_parsed.txt
 ```
 
@@ -126,11 +136,11 @@ DUF1380 family protein [Enterobacteriaceae]
 DUF4158 domain-containing protein [Klebsiella pneumoniae]
 ```
 
-## Example of using the `fastq_filter` function
+## FASTQ filter
 
 **_Input_**
 
-```python
+```
 ! head -4 demo_data/example_fastq.fastq
 ```
 
@@ -158,7 +168,7 @@ Filtered FastQ. Saved as demo_data/example_fastq_filtered.fastq
 
 **_Input_**
 
-```python
+```
 ! head -4 demo_data/example_fastq_filtered.fastq
 ```
 
@@ -248,7 +258,7 @@ Length: 5
 Molecular Weight: 729.8299999999999
 ```
 
-## Testing RandomForestClassifierCustom
+## Custom RandomForestClassifier
 
 Import needed library and module
 
