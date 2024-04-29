@@ -5,7 +5,6 @@ modified: 2024-04-29
 author_profile: false
 ---
 
-{% include base_path %}
 {% include toc %}
 
 ## Installation
@@ -344,7 +343,6 @@ Wall time: 171 ms
 
 Time comparison (CPU times)
 
-Time comparison (CPU times)
 |n_jobs|fit   |predict|
 |------|------|-------|
 |1     |9.44 s|172 ms |
