@@ -383,7 +383,8 @@ The request has been fulfilled.
 
 **_Input_**
 
-```/ head -5 demo_data/dataset_for_iTOL_2.txt
+```
+! head -5 demo_data/dataset_for_iTOL_2.txt
 ```
 
 **_Output_**
