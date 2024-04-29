@@ -109,11 +109,11 @@ All downloads completed.
 Below used tree is based on demonstrational data. Tree construction is made in `tree_construction.ipynb` notebook.<br>
 The most important file is `demo_data/tree_ufb.treefile`. Upload it to iTOL for visualization.
 
-<img src="images/DSTU_tool/Reference tree.jpg" width="75%">
+<img src="/images/DSTU_tool/Reference tree.jpg" width="75%">
 
 _Figure 1. Reference tree from the original paper_
 
-<img src="images/DSTU_tool/first tree.jpg" width="75%">
+<img src="/images/DSTU_tool/first tree.jpg" width="75%">
 
 _Figure 2. Naked phylogenetic tree_
 
@@ -350,7 +350,7 @@ NC_034519.1 Orthohantavirus khabarovskense	#0ca20c	Rodentia
 2. Upload `demo_data/modified_tree.treefile` file as the tree
 3. Upload `demo_data/dataset_for_iTOL.txt` as the annotation dataset
 
-<img src="images/DSTU_tool/second tree.jpg" width="75%">
+<img src="/images/DSTU_tool/second tree.jpg" width="75%">
 
 _Fig 3. Second tree. With annotation info containing organisms names and manually adjusted colors indicating hosts taxonomic order_
 
@@ -358,7 +358,7 @@ This is the best tree easily made with DSTU software
 
 Let's take a look at the original tree again
 
-<img src="images/DSTU_tool/Reference tree.jpg" width="75%">
+<img src="/images/DSTU_tool/Reference tree.jpg" width="75%">
 
 It can be seen that in original version authors did annotation manually and they made some mistakes in hosts annotation. DSTU software did not make this mistakes.
 
@@ -402,7 +402,7 @@ NC_034519.1 Orthohantavirus khabarovskense	#e31342	Rodentia
 2. Upload `demo_data/modified_tree.treefile` file as the tree
 3. Upload `demo_data/dataset_for_iTOL_2.txt` as the annotation dataset
 
-<img src="images/DSTU_tool/third tree.jpg" width="75%">
+<img src="/images/DSTU_tool/third tree.jpg" width="75%">
 
 _Fig 4. Third tree. With annotation info containing organisms names and randomly generated colors indicating hosts taxonomic order_
 
