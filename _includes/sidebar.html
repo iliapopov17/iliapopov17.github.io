@@ -1,8 +1,9 @@
-{% if page.author_profile or layout.author_profile or page.SFL_profile or layout.SFL_profile or page.MAE_profile or layout.MAE_profile or page.sidebar %}
+{% if page.author_profile or layout.author_profile or page.SFL_profile or layout.SFL_profile or page.MAE_profile or layout.MAE_profile or page.DSTU_profile or layout.DSTU_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.SFL_profile or layout.SFL_profile %}{% include SFL-profile.html %}{% endif %}
   {% if page.MAE_profile or layout.MAE_profile %}{% include MAE-profile.html %}{% endif %}
+  {% if page.DSTU_profile or layout.DSTU_profile %}{% include DSTU-profile.html %}{% endif %}
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
