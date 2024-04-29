@@ -45,9 +45,7 @@ run_eda(df)
 Welcome to the Awesome EDA Module!
 ```
 
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/imgs/welcome.gif" align='center', width="50%">
-</div>
+<img src='/images/MyAwesomeEDA/welcome.gif' width="50%">
 
 ```
 Number of observations (rows):
@@ -142,35 +140,27 @@ Number of duplicate rows:
 ===== ===== ===== ===== ===== =====
 ===== ===== ===== ===== ===== =====
 ```
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/1.png" align='center', width="50%">
-</div>
 
+<img src='/images/MyAwesomeEDA/1.png' width="50%">
+
+```
 ===== ===== ===== ===== ===== =====
 ===== ===== ===== ===== ===== =====
+```
 
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/2.png" align='center', width="50%">
-</div>
+<img src='/images/MyAwesomeEDA/2.png' width="50%">
 
+```
 ===== ===== ===== ===== ===== =====
 ===== ===== ===== ===== ===== =====
+```
 
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/3.png" align='center', width="50%">
-</div>
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/4.png" align='center', width="50%">
-</div>
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/5.png" align='center', width="50%">
-</div>
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/6.png" align='center', width="50%">
-</div>
-<div style='justify-content: center'>
-<img src="https://github.com/iliapopov17/MyAwesomeEDA/blob/main/demo/imgs/7.png" align='center', width="50%">
-</div>
+<img src='/images/MyAwesomeEDA/3.png' width="50%">
+<img src='/images/MyAwesomeEDA/4.png' width="50%">
+<img src='/images/MyAwesomeEDA/5.png' width="50%">
+<img src='/images/MyAwesomeEDA/6.png' width="50%">
+<img src='/images/MyAwesomeEDA/7.png' width="50%">
+
 ```
 ===== ===== ===== ===== ===== =====
 ===== ===== ===== ===== ===== =====
