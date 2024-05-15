@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hi! My name is Ilia Popov (aka Ilya).<br>
-I have a medical degree and I'm about to graduate as a bioinformatician. Since my 2<sup>nd</sup> year of university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
+I have a medical degree and and have completed a retraining programme in bioinformatics. Since my 2<sup>nd</sup> year of university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
 
 ### Research Internship
 
@@ -16,11 +16,11 @@ Last year, I did an internship in Indonesia studying the composition and propert
 
 ### Studying at the Bioinformatics Institute
 
-Currently, I’m finalizing my studies at the Bioinformatics Institute. I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/), and plan to further enhance my Python skills. I’ve completed nine applied bioinformatics projects, with detailed reports and lab journals available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). I've thoroughly explored phylogenetics, outlining a complete research [pipeline](https://iliapopov17.github.io/portfolio/portfolio-6/). My ongoing research project involves detecting indirect signs of HIV infection in cell-free DNA samples, with results to be published [soon](https://github.com/iliapopov17/The-shadow-of-HIV).
+During my studies I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/), and plan to further enhance my Python skills. I’ve completed nine applied bioinformatics projects, with detailed reports and lab journals available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). I've thoroughly explored phylogenetics, outlining a complete research [pipeline](https://iliapopov17.github.io/portfolio/portfolio-6/). My research project involved detecting indirect signs of HIV infection in cell-free DNA samples, with results published [here](https://github.com/iliapopov17/The-shadow-of-HIV).
 
 ### Working at Don State Technical University
 
-At Don State Technical University, I collaborated with Igor Popov’s group in Alexey Ermakov’s lab, applying my knowledge and skills to achieve top-tier results. Currently working on the study on the phylogenetics of orthohantaviruses isolated from biological samples of bats.<br>
+At Don State Technical University, I collaborated with Igor Popov’s group in Alexey Ermakov’s lab, applying my knowledge and skills to achieve top-tier results.<br>
 
 ### Hobbies
 
@@ -45,4 +45,4 @@ title="test titile"></iframe>
 <br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
-Occasionally, I enjoy writing detailed [manuals on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.
+Occasionally, I enjoy writing detailed [handbook on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.

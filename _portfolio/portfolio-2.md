@@ -1,6 +1,6 @@
 ---
 title: "The shadow of HIV"
-excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024<br/><img src='/images/500x300/Current_status_Shadow500x300.svg' width='500px'>"
+excerpt: "Bioinformatics Institute Research Project; Feb 2024 – May 2024<br/><img src='/images/HIV_shadow.png' width='500px'>"
 collection: portfolio
 ---
 
@@ -11,10 +11,10 @@ Being a retrovirus, HIV can not be directly detected in cell-free DNA data.<br>
 Steps of the study:<br>
     1. Extraction of unmapped reads<br>
     2. Assigning taxonomic labels<br>
-    3. **Creating residual virus and microbiome profiles of two datasets** – current step<br>
+    3. Creating residual virus and microbiome profiles of two datasets
     4. Analysis of the HIV-positive sequencing data<br>
     5. Finding the differences in exogenous DNA composition between HIV- and HIV+ NIPT samples<br>
 
-<img src='/images/Current_status_Shadow.png'>
+<img src='/images/HIV_shadow.png'>
 
-The results will be published in the very begining of the May, 2024 in [The-shadow-of-HIV repository](https://github.com/iliapopov17/The-shadow-of-HIV).
+The results are published in [The-shadow-of-HIV repository](https://github.com/iliapopov17/The-shadow-of-HIV).
