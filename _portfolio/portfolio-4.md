@@ -1,6 +1,6 @@
 ---
 title: "MyAwesomeEDA"
-excerpt: "Python module that provides a set of tools for exploring and analyzing your dataset<br/><img src='/images/MyAwesomeEDA.png' width='500px'>"
+excerpt: "Python module that provides a set of tools for exploring and analyzing your dataset<br/><img src='/images/MyAwesomeEDA.png' width='300px'>"
 collection: portfolio
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "SequenceForge-Lite"
-excerpt: "Lightweight tool designed to work with biological sequence data, providing various functionalities for filtering FASTQ files and manipulating FASTA files<br/><img src='/images/SequenceForge-Lite.png' width='500px'>"
+excerpt: "Lightweight tool designed to work with biological sequence data, providing various functionalities for filtering FASTQ files and manipulating FASTA files<br/><img src='/images/SequenceForge-Lite.png' width='300px'>"
 collection: portfolio
 ---
 
