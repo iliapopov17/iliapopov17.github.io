@@ -14,9 +14,12 @@ collection: portfolio
 ## Features
 ### Sequence Downloading
 - Facilitates the retrieval of sequences from NCBI GenBank using specified accession numbers.
+
 ### Organism Name Reintegration
 - Enhances IQ-TREE constructed trees by replacing accession numbers with the corresponding organism names for clarity and context.
+
 ### Host Information Retrieval
 - Gathers host data for each microorganism, including the host's taxonomic order.
+
 ### Annotation Dataset Preparation for iTOL
 - Utilizes the collected host information to prepare detailed annotation datasets, optimizing visualization in iTOL.
