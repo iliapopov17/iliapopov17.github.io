@@ -1,6 +1,6 @@
 ---
 title: "Pediatric Nutritional Medicine and Intestinal Microbiology"
-excerpt: "Research Internship in Indonesia (Bina Nusantara University; Feb 2023 – July 2023)<br/><img src='/images/500x300/Clinical_trial_design500x300.svg' width='500px'>"
+excerpt: "Research Internship in Indonesia (Bina Nusantara University; Feb 2023 – July 2023)<br/><img src='/images/Clinical_trial_design.png' width='500px'>"
 collection: portfolio
 ---
 
@@ -12,7 +12,7 @@ The crux of my responsibilities revolved around assistanship of organization and
 
 Blood and stool samples were systematically gathered from the participants.<br>
 
-<img src='/images/Clinical_trial_design.jpg'>
+<img src='/images/Clinical_trial_design.png'>
 
 _Figure 1. Clinical trial design._
 
