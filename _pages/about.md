@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 Hi! My name is Ilia Popov (aka Ilya).<br>
-I have a medical degree and and have completed a retraining programme in bioinformatics. Since my 2<sup>nd</sup> year of university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
+I have a medical degree and have completed a retraining programme in bioinformatics. Since my 2<sup>nd</sup> year of university I have been endlessly fascinated by the world of microbiology, specifically the mind-blowing world of intestinal microbiology! This is why I decided to develop in the field of bioinformatics.<br>
 
 ### Research Internship
 
