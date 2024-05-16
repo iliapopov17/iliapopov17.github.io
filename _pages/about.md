@@ -12,7 +12,7 @@ I have a medical degree and have completed a retraining programme in bioinformat
 
 ### Research Internship
 
-Last year, I did an internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/), the results are published [here](https://iliapopov17.github.io/publication/2024-03-29-paper-10).<br>
+Last year, I did an internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/), the results are published [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299349).<br>
 
 ### Studying at the Bioinformatics Institute
 
