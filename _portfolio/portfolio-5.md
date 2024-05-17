@@ -16,6 +16,8 @@ collection: portfolio
 ## Project 9. scRNA-seq
 For [Project 9](https://github.com/iliapopov17/BI-Workshop-miniProjects/tree/main/Project%209) CITE-seq was used to perform a comprehensive single-cell analysis of human bone marrow. Utilizing `Scanpy`, the study processed a dataset of 33,454 cells, identifying eight distinct cell groups. Focus was given to monocytes and myeloid dendritic cells, characterized by specific gene markers such as FCN1, VCAN, AIF1, SPI1, and CD68.
 
+<a href="http://iliapopov17.github.io/files/Study-projects/BI_Project_9_Popov.pdf"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i> Download report </a>
+
 ## Project 8. RepSeq Sudoku
 
 For [Project 8](https://github.com/iliapopov17/BI-Workshop-miniProjects/tree/main/Project%208) we delved into the intricacies of T-cell receptor β-chain repertoire diversity across CMV+ and CMV- donors. Utilizing `RepSeq` analysis, 16 TCRB samples were annotated.
