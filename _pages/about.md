@@ -22,6 +22,10 @@ During my studies I’ve developed two simple tools, [SequenceForge-Lite](https:
 
 At Don State Technical University, I collaborated with Igor Popov’s group in Alexey Ermakov’s lab, applying my knowledge and skills to achieve top-tier results.<br>
 
+### Professional Development
+
+Every day I want to grow on myself and improve my knowledge and skills. That's why I regularly take continuing professional development courses, which is reflected on the [CPDs](https://iliapopov17.github.io/cpds/) page
+
 ### Hobbies
 
 I really enjoy reading books, travelling and cycling!<br>
