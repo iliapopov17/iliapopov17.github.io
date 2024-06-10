@@ -24,9 +24,9 @@ author:
   avatar           : "ilia_popov.png"
   name             : "Ilia Popov"
   pronouns         : # example: "she/her"  
-  bio              : "Junior Researcher"
+  bio              : "Junior Researcher, DSTU"
   location         : "Rostov-on-Don, Russia"
-  employer         : "Don State Technical University"
+  employer         : # "Red Brick University"
   uri              : # URL
   email            : "iljapopov17@gmail.com" 
 
