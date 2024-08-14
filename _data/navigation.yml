@@ -12,8 +12,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "CPDs"
-    url: /cpds/
+  - title: "Certificates"
+    url: /certificates/
     
   - title: "CV"
     url: /cv/

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Certificates of Professional Development"
-permalink: /cpds/
+permalink: /certificates/
 author_profile: true
 ---
 
