@@ -1,12 +1,12 @@
 ---
 title: "Handbook: NGS Data Analysis"
-excerpt: "Handbook on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!<br/><img src='/images/NGS analysis workflow.png' width='500px'>"
+excerpt: "Handbook on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!<br/><img src='/images/NGS workflow.png' width='500px'>"
 collection: portfolio
 ---
 
 Please also visit the initial [repository](https://github.com/iliapopov17/NGS-Data-Analysis-Manual). There is a guide how to install and activate the needed conda envinronment.
 
-<img src='/images/NGS analysis workflow.png'>
+<img src='/images/NGS workflow.png'>
 
 _Typical workflow of NGS data analysis_
 
