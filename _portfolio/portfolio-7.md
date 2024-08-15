@@ -1,24 +1,25 @@
 ---
-title: "Handbook: NGS Data Analysis"
-excerpt: "Handbook on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling. Much more to be disclosured soon!<br/><img src='/images/NGS workflow.png' width='500px'>"
+title: "Detailed Sequences for Trees Unblemished"
+excerpt: "Tool to automatically annotate phylogenetic trees<br/><img src='/images/DSTU_tool/DSTU logo light theme.png' width='500px'>"
 collection: portfolio
 ---
 
-Please also visit the initial [repository](https://github.com/iliapopov17/NGS-Data-Analysis-Manual). There is a guide how to install and activate the needed conda envinronment.
+<img src='/images/DSTU_tool/DSTU logo light theme.png' width="25%">
 
-<img src='/images/NGS workflow.png'>
+> Detailed Sequences for Trees Unblemished (DSTU) simplifies phylogenetic tree creation in microbiology and virology by facilitating sequence downloads from NCBI GenBank using accession numbers. It also reinstates organism names in trees constructed with IQ-TREE, retrieves host information about microorganisms, and prepares annotation datasets for further visualization in iTOL.
 
-_Typical workflow of NGS data analysis_
+<a href="https://github.com/iliapopov17/dstu"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
+<a href="https://iliapopov17.github.io/dstu/"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i> Usage Guide </a>
 
-## Much more to be disclosured soon:
-- Whole Genome and Pangenome Analyses
-- Merging Phylogenetics pipeline into this handbook repository
-- 16S Amplicon Analysis
+## Features
+### Sequence Downloading
+- Facilitates the retrieval of sequences from NCBI GenBank using specified accession numbers.
 
-## Genomic Variation Analysis
+### Organism Name Reintegration
+- Enhances IQ-TREE constructed trees by replacing accession numbers with the corresponding organism names for clarity and context.
 
-In the [Genomic Variation Analysis folder](https://github.com/iliapopov17/NGS-Data-Analysis-Manual/tree/main/02_Genomic_Variation_Analysis) there is a detailed guide how to conduct studies on Variant Calling using `fastqc`, `trimmomatic`, `bwa`, `samtools`, `abra2`, `bcftools`, `snpEff` & `SnpSift`
+### Host Information Retrieval
+- Gathers host data for each microorganism, including the host's taxonomic order.
 
-## Quality Control of raw data
-
-In the [Quality Control folder](https://github.com/iliapopov17/NGS-Data-Analysis-Manual/tree/main/01_Quality_Control) there is a detailed guide how to conduct quality control of raw data using `fastqc` and `trimmomatic`.
+### Annotation Dataset Preparation for iTOL
+- Utilizes the collected host information to prepare detailed annotation datasets, optimizing visualization in iTOL.
