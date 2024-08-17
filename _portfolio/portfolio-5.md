@@ -9,9 +9,11 @@ excerpt: "Study projects completed as part of the workshops undertaken during th
 6. RNA-seq data analysis for differential gene expression of <i>Saccharomyces cerevisiae</i> after 30 minutes of fermentation<br/>
 7. Ancient metagenomes analysis examining human dental calculus<br/>
 8. Annotation of the immune repertoire derived from the T-cell population in a relatively healthy donor<br/>
-9. Single-cell CITE-seq analysis detailing the cellular composition and transcriptional profiles within human bone marrow<br/><img src='/images/500x300/bioinf500x300.png'>"
+9. Single-cell CITE-seq analysis detailing the cellular composition and transcriptional profiles within human bone marrow<br/><img src='/images/bi_workshop.png' width='500px'>"
 collection: portfolio
 ---
+
+<img src='/images/bi_workshop.png' width="25%">
 
 ## Project 9. scRNA-seq
 For [Project 9](https://github.com/iliapopov17/BI-Workshop-miniProjects/tree/main/Project%209) CITE-seq was used to perform a comprehensive single-cell analysis of human bone marrow. Utilizing `Scanpy`, the study processed a dataset of 33,454 cells, identifying eight distinct cell groups. Focus was given to monocytes and myeloid dendritic cells, characterized by specific gene markers such as FCN1, VCAN, AIF1, SPI1, and CD68.
