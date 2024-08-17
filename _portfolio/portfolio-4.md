@@ -1,10 +1,10 @@
 ---
 title: "MyAwesomeEDA"
-excerpt: "Python module that provides a set of tools for exploring and analyzing your dataset<br/><img src='/images/MyAwesomeEDA/MyAwesomeEDA_logo_light.png' width='500px'>"
+excerpt: "Python module that provides a set of tools for exploring and analyzing your dataset<br/><img src='/images/MyAwesomeEDA/MAE_logo_light.png' width='500px'>"
 collection: portfolio
 ---
 
-<img src='/images/MyAwesomeEDA/MyAwesomeEDA_simple.png' width="25%">
+<img src='/images/MyAwesomeEDA/MAE_simple_light.png' width="25%">
 
 > This Python module provides a set of tools for exploring and analyzing your dataset. Whether you're a data scientist, analyst, or enthusiast, this module will help you gain insights into your data quickly and efficiently.
 
