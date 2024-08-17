@@ -1,10 +1,10 @@
 ---
 title: "SequenceForge-Lite"
-excerpt: "Lightweight tool designed to work with biological sequence data, providing various functionalities for filtering FASTQ files and manipulating FASTA files<br/><img src='/images/SequenceForge-Lite.png' width='500px'>"
+excerpt: "Lightweight tool designed to work with biological sequence data, providing various functionalities for filtering FASTQ files and manipulating FASTA files<br/><img src='/images/SeqForgeLite/SequenceForge-Lite.png' width='500px'>"
 collection: portfolio
 ---
 
-<img src='/images/SequenceForge-Lite.png' width="25%">
+<img src='/images/SeqForgeLite/SeqForgeLite_simple.png' width="25%">
 
 > SequenceForge-Lite is a lightweight tool designed to work with biological sequence data, providing various functionalities for filtering FASTQ files and manipulating FASTA files. Additionally, it offers utilities for parsing BLAST output files.
 
