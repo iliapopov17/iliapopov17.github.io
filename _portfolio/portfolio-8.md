@@ -14,4 +14,6 @@ Steps of the analysis:<br>
     3. Maximum-likelihood phylogenetic tree reconstruction using `ModelFinder` & `IQ-TREE2`<br>
     4. Plotting _Brno loanviruses_ area of habitat using `rnaturalearth`<br>
 
+📝 See [GitHub repo](https://github.com/PopovIILab/PhoBl) for more details
+
 <img src='/images/PhoBl.png'>

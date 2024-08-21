@@ -6,4 +6,6 @@ collection: portfolio
 
 This page is currently at work. I am in the middle of uploading lab journals. Soon details will be disclosured.
 
+📝 See [GitHub repo](https://github.com/PopovIILab/BatShotMetaFlow) for more details
+
 <img src='/images/BatShotMetaFlow.png'>
