@@ -1,9 +1,17 @@
 ---
-title: "Whole genome metagenomic analysis of the gut microbiome of bats"
-excerpt: "Russian Science Foundation grant research project (Don State Technical University; June 2024 – Aug 2024)<br/><img src='/images/BatShotMetaFlow.png' width='500px'>"
+title: "Detection of Brno loanvirus in bats in Southern Russia"
+excerpt: "Russian Science Foundation grant research project (Don State Technical University; May 2024)<br/><img src='/images/PhoBl.png' width='500px'>"
 collection: portfolio
 ---
 
-This page is currently at work. I am in the middle of uploading lab journals. Soon details will be disclosured.
+PCR screening of hantaviruses in samples from bats in Rostov-on-Don showed some positive results. Phylogenetic analysis revealed that the isolated viruses are closely related to _Brno loanviruses_ found in Central Europe, suggesting they might be the same virus.<br>
 
-<img src='/images/BatShotMetaFlow.png'>
+This research demonstrates that _Brno loanvirus_ has a wide area of habitat: from Central Europe to Southern Russia.
+
+Steps of the analysis:<br>
+    1. Downloading sequences from `NCBI`<br>
+    2. Multiple Sequence Alignment using `MAFFT`<br>
+    3. Maximum-likelihood phylogenetic tree reconstruction using `ModelFinder` & `IQ-TREE2`<br>
+    4. Plotting _Brno loanviruses_ area of habitat using `rnaturalearth`<br>
+
+<img src='/images/PhoBl.png'>
