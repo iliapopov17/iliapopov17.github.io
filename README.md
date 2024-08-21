@@ -1,4 +1,3 @@
-z
 # My Personal Homepage
 
 This is the repository for my personal homepage<br>
