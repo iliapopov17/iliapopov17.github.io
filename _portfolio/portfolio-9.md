@@ -4,8 +4,8 @@ excerpt: "Russian Science Foundation grant research project (Don State Technical
 collection: portfolio
 ---
 
-This page is currently at work. I am in the middle of uploading lab journals. Soon details will be disclosured.
+<a href="https://github.com/PopovIILab/BatShotMetaFlow"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Lab journal </a><br>
 
-📝 See [GitHub repo](https://github.com/PopovIILab/BatShotMetaFlow) for more details
+This page is currently at work. I am in the middle of uploading lab journals. Soon details will be disclosured.
 
 <img src='/images/BatShotMetaFlow.png'>

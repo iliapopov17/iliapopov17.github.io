@@ -4,6 +4,8 @@ excerpt: "Russian Science Foundation grant research project (Don State Technical
 collection: portfolio
 ---
 
+<a href="https://github.com/PopovIILab/PhoBl"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Lab journal </a><br>
+
 PCR screening of hantaviruses in samples from bats in Rostov-on-Don showed some positive results. Phylogenetic analysis revealed that the isolated viruses are closely related to _Brno loanviruses_ found in Central Europe, suggesting they might be the same virus.<br>
 
 This research demonstrates that _Brno loanvirus_ has a wide area of habitat: from Central Europe to Southern Russia.
@@ -13,7 +15,5 @@ Steps of the analysis:<br>
     2. Multiple Sequence Alignment using `MAFFT`<br>
     3. Maximum-likelihood phylogenetic tree reconstruction using `ModelFinder` & `IQ-TREE2`<br>
     4. Plotting _Brno loanviruses_ area of habitat using `rnaturalearth`<br>
-
-📝 See [GitHub repo](https://github.com/PopovIILab/PhoBl) for more details
 
 <img src='/images/PhoBl.png'>
