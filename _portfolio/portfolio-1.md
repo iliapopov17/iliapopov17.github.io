@@ -7,9 +7,7 @@ collection: portfolio
 ## Research topic
 Pediatric Nutritional Medicine and Intestinal Microbiology (repository name is the acronym)
 
-<div style='justify-content: center'>
-<img src="/images/PNMIM/Study_design.png" align='center', width="100%">
-</div>
+<img src="/images/PNMIM/Study_design.png" width="100%">
 
 _Figure 1. Clinical trial design._
 
@@ -21,9 +19,7 @@ The crux of my responsibilities revolved around assistanship of organization and
 
 Blood and stool samples were systematically gathered from the participants.<br>
 
-<div style='justify-content: center'>
-<img src="/images/PNMIM/Field-work-map.png" align='center', width="100%">
-</div>
+<img src="/images/PNMIM/Field-work-map.png" width="100%">
 
 _Figure 2. Field work map. Dark blue dot - Jakarta, capital of Indonesia. Dark red dots - North Kodi Township & Kupang City._
 
