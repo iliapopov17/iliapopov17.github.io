@@ -1,15 +1,15 @@
 ---
-title: "Detailed Sequences for Trees Unblemished"
-excerpt: "Tool to automatically annotate phylogenetic trees<br/><img src='/images/DSTU_tool/DSTU_logo_light.png' width='500px'>"
+title: "Phyloki"
+excerpt: "Tool to automatically annotate phylogenetic trees<br/><img src='/images/phyloki/phyloki_logo_light.png' width='500px'>"
 collection: portfolio
 ---
 
-<img src='/images/DSTU_tool/DSTU_simple_light.png' width="25%">
+<img src='/images/phyloki/phyloki_simple_light.png' width="25%">
 
-> Detailed Sequences for Trees Unblemished (DSTU) simplifies phylogenetic tree creation in microbiology and virology by facilitating sequence downloads from NCBI GenBank using accession numbers. It also reinstates organism names in trees constructed with IQ-TREE, retrieves host information about microorganisms, and prepares annotation datasets for further visualization in iTOL.
+> Phyloki simplifies phylogenetic tree creation in microbiology and virology by facilitating sequence downloads from NCBI GenBank using accession numbers. It also reinstates organism names in trees constructed with IQ-TREE, retrieves host information about microorganisms, and prepares annotation datasets for further visualization in iTOL.
 
-<a href="https://github.com/iliapopov17/dstu"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
-<a href="https://github.com/iliapopov17/dstu/wiki"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i> Usage Guide </a>
+<a href="https://github.com/iliapopov17/phyloki"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
+<a href="https://github.com/iliapopov17/phyloki/wiki"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i> Usage Guide </a>
 
 ## Features
 ### Sequence Downloading
