@@ -4,7 +4,16 @@ excerpt: "Research Internship in Indonesia (Bina Nusantara University; Feb 2023 
 collection: portfolio
 ---
 
-## Field Work
+## Research topic
+Pediatric Nutritional Medicine and Intestinal Microbiology (repository name is the acronym)
+
+<div style='justify-content: center'>
+<img src="/images/PNMIM/Study_design.png" align='center', width="100%">
+</div>
+
+_Figure 1. Clinical trial design._
+
+## 🗺️ Field Work
 
 During the internship, I did a research expedition to the East Nusa Tenggara Province (Kupang City & North Kodi Township). This experience involved participation in the organization and execution of a clinical trial, a significant endeavor aimed at advancing our understanding of probiotic efficacy.<br>
 
@@ -12,16 +21,20 @@ The crux of my responsibilities revolved around assistanship of organization and
 
 Blood and stool samples were systematically gathered from the participants.<br>
 
-<img src='/images/Clinical_trial_design.png'>
+<div style='justify-content: center'>
+<img src="/images/PNMIM/Field-work-map.png" align='center', width="100%">
+</div>
 
-_Figure 1. Clinical trial design._
+_Figure 2. Field work map. Dark blue dot - Jakarta, capital of Indonesia. Dark red dots - North Kodi Township & Kupang City._
 
-## Bioinformatic Works
+Map made with `rnaturalearth` in `RStudio`
 
-### Genomic Insights: Unraveling Safety Aspects of Probiotic _Lpb. plantarum_ IS-10506
+## 💻 Bioinformatic Works
 
-This [internship report](https://github.com/iliapopov17/PNMIM/tree/main/Genome%20annotation) unveils a comprehensive genome-based safety assessment of the probiotic strain _Lpb. plantarum_ IS-10506. The study explores bacteriocin clusters and CRISPR sequences, shedding light on its antimicrobial potential and defense mechanisms.
+### 🧬 Genomic Insights: Unraveling Safety Aspects of Probiotic _Lpb. plantarum_ IS-10506
 
-### Microbial Insights: Examining Gut Differences in Growing Children
+This [internship report](https://github.com/iliapopov17/PNMIM/tree/main/01_Genome_annotation) unveils a comprehensive genome-based safety assessment of the probiotic strain _Lpb. plantarum_ IS-10506. The study explores bacteriocin clusters and CRISPR sequences, shedding light on its antimicrobial potential and defense mechanisms.
 
-This [internship report](https://github.com/iliapopov17/PNMIM/tree/main/Metagenomic%20assay) presents a multivariate analysis of the relationship between clinical metadata and microbiome characteristics in a comparative study of gut microbiota profiles in stunted and normal growing children aged 36-45 months. V3-V4 16s rRNA amplicon sequencing data from faecal samples of the children participating in the study were used for the analyses.
+### 🧫 Microbial Insights: Examining Gut Differences in Growing Children
+
+This [internship report](https://github.com/iliapopov17/PNMIM/tree/main/02_Metagenomic_assay) presents a multivariate analysis of the relationship between clinical metadata and microbiome characteristics in a comparative study of gut microbiota profiles in stunted and normal growing children aged 36-45 months. V3-V4 16s rRNA amplicon sequencing data from faecal samples of the children participating in the study were used for the analyses.
