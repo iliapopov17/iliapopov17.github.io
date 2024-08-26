@@ -1,6 +1,11 @@
 ---
 title: "Handbook: NGS Data Analysis"
-excerpt: "Handbook on conducting NGS data analysis studies. At the moment there are detailed manuals on Quality Control and Variant Calling along with the complete pipeline of simple research in phylogenetics. Much more to be disclosured soon!<br/><img src='/images/NGS workflow.png' width='500px'>"
+excerpt: "Handbook on conducting NGS data analysis studies:
+1. Quality Control of raw data<br/>
+2. Genomic Variation Analysis<br/>
+3. Whole Genome and Pangenome Analyses<br/>
+4. Phylogenetics<br/>
+5. 16S Amplicon Analysis<br/><img src='/images/NGS workflow.png' width='500px'>"
 collection: portfolio
 ---
 
