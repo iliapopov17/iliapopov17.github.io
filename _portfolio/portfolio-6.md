@@ -1,6 +1,6 @@
 ---
 title: "Handbook: NGS Data Analysis"
-excerpt: "Handbook on conducting NGS data analysis studies:
+excerpt: "Handbook on conducting NGS data analysis studies:<br/>
 1. Quality Control of raw data<br/>
 2. Genomic Variation Analysis<br/>
 3. Whole Genome and Pangenome Analyses<br/>
