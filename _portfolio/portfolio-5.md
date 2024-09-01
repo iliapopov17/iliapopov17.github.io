@@ -1,5 +1,5 @@
 ---
-title: "BI: Study Projects"
+title: "Bioinformatics Workshop Projects"
 excerpt: "Study projects completed as part of the workshops undertaken during the training at the Bioinformatics Institute:<br/>
 1. Variant calling of <i>Escherichia coli</i> WGS<br/>
 2. Variant calling of deep sequencing data (<i>Influenza A virus</i> (H3N2) hemagglutinin gene)<br/>
