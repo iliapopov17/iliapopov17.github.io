@@ -8,7 +8,7 @@ date: 2024-09-01
 location: "Rostov-on-Don, Russia"
 ---
 
-Handbook on analysis NGS data. Covers topics on:
+Detailed guidelines on NGS data analysis. Covers topics on:
 1. Quality Control of raw data<br/>
 2. Genomic Variation Analysis<br/>
 3. Whole Genome and Pangenome Analyses<br/>
