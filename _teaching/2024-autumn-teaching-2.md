@@ -8,14 +8,7 @@ date: 2024-09-01
 location: "Rostov-on-Don, Russia"
 ---
 
-Detailed guidelines on NGS data analysis. Covers topics on:
-1. Quality Control of raw data<br/>
-2. Genomic Variation Analysis<br/>
-3. Whole Genome and Pangenome Analyses<br/>
-4. Phylogenetics<br/>
-5. 16S Amplicon Analysis<br/>
-
-Please also visit the initial [repository](https://github.com/iliapopov17/NGS-Handbook). There is a guide how to install and activate the needed conda envinronment.
+Detailed guidelines on NGS data analysis. Covers topics on: `Quality Control of raw data`, `Genomic Variation Analysis`, `Whole Genome and Pangenome Analyses`, `Phylogenetics` and `16S Amplicon Analysis`.
 
 <img src='/images/NGS workflow.png'>
 
