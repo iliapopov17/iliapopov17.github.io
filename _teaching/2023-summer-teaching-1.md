@@ -1,5 +1,5 @@
 ---
-title: "Lecture: Culture-independent methods for qualitative and quantitative microbiological detection and identification"
+title: "Culture-independent methods for qualitative and quantitative microbiological detection and identification"
 collection: teaching
 type: "Guest lecture"
 permalink: /teaching/2023-summer-teaching-1

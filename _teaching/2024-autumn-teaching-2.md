@@ -1,11 +1,14 @@
 ---
-title: "Handbook: NGS Data Analysis"
+title: "NGS Data Analysis"
 collection: teaching
+type: "Handbook"
 permalink: /teaching/2024-autumn-teaching-2
+venue: "Own materials"
+date: 2024-09-01
 location: "Rostov-on-Don, Russia"
 ---
 
-Handbook on analysis NGS data. Covers topics on:<br/>
+Handbook on analysis NGS data. Covers topics on:
 1. Quality Control of raw data<br/>
 2. Genomic Variation Analysis<br/>
 3. Whole Genome and Pangenome Analyses<br/>
