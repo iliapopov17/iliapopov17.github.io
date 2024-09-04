@@ -1,37 +1,25 @@
 ---
-title: "Handbook: NGS Data Analysis"
-excerpt: "Handbook on conducting NGS data analysis studies:<br/>
-1. Quality Control of raw data<br/>
-2. Genomic Variation Analysis<br/>
-3. Whole Genome and Pangenome Analyses<br/>
-4. Phylogenetics<br/>
-5. 16S Amplicon Analysis<br/><img src='/images/NGS workflow.png' width='500px'>"
+title: "Phyloki"
+excerpt: "Tool to automatically annotate phylogenetic trees<br/><img src='/images/phyloki/phyloki_logo_light.png' width='500px'>"
 collection: portfolio
 ---
 
-Please also visit the initial [repository](https://github.com/iliapopov17/NGS-Handbook). There is a guide how to install and activate the needed conda envinronment.
+<img src='/images/phyloki/phyloki_simple_light.png' width="25%">
 
-<img src='/images/NGS workflow.png'>
+> Phyloki simplifies phylogenetic tree creation in microbiology and virology by facilitating sequence downloads from NCBI GenBank using accession numbers. It also reinstates organism names in trees constructed with IQ-TREE, retrieves host information about microorganisms, and prepares annotation datasets for further visualization in iTOL.
 
-_Typical workflow of NGS data analysis_
+<a href="https://github.com/iliapopov17/phyloki"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
+<a href="https://github.com/iliapopov17/phyloki/wiki"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i> Usage Guide </a>
 
+## Features
+### Sequence Downloading
+- Facilitates the retrieval of sequences from NCBI GenBank using specified accession numbers.
 
-## 05 16S Amplicon Analysis 🧫
+### Organism Name Reintegration
+- Enhances IQ-TREE constructed trees by replacing accession numbers with the corresponding organism names for clarity and context.
 
-In the [16S amplicon analysis folder](https://github.com/iliapopov17/NGS-Handbook/tree/main/05_16S_amplicon_analysis) there is an introductory guide on conducting analysis using `DADA2` followed by two interesting examples of "real-life" analysis pipeline with the data from studies on Crohn's and Parkinson's diseases.
+### Host Information Retrieval
+- Gathers host data for each microorganism, including the host's taxonomic order.
 
-## 04 Phylogenetics 🌳
-
-In the [Phylogenetics folder](https://github.com/iliapopov17/NGS-Handbook/tree/main/04_Phylogenetics) there is a complete pipeline of simple research in phylogenetics, from working with NCBI (and other databases) to building trees, evaluating them, and getting some worthwhile results.
-
-## 03 Whole Genome and Pangenome Analyses 🧬
-
-In the [Whole (pan)genome analyses](https://github.com/iliapopov17/NGS-Handbook/tree/main/03_Whole_(pan)genome_analyses) there is a pipeline of whole genome and pangenome analyses with `PanACoTA` pipeline which includes genomes filtering with `mash`, annotating with `prokka` & `prodigal`, pangenome building with `mmseqs`, core genomes alignment with `mafft` and finally building phylogenetic tree with `iq-tree`.
-
-## 02 Genomic Variation Analysis 🔬
-
-In the [Genomic Variation Analysis folder](https://github.com/iliapopov17/NGS-Handbook/tree/main/02_Genomic_Variation_Analysis) there is a detailed guide how to conduct studies on Variant Calling using `fastqc`, `trimmomatic`, `bwa`, `samtools`, `abra2`, `bcftools`, `snpEff` & `SnpSift`.
-
-## 01 Quality Control of raw data 💎
-
-In the [Quality Control folder](https://github.com/iliapopov17/NGS-Handbook/tree/main/01_Quality_Control) there is a detailed guide how to conduct quality control of raw data using `fastqc` and `trimmomatic`.
+### Annotation Dataset Preparation for iTOL
+- Utilizes the collected host information to prepare detailed annotation datasets, optimizing visualization in iTOL.

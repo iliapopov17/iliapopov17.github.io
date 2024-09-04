@@ -1,25 +1,19 @@
 ---
-title: "Phyloki"
-excerpt: "Tool to automatically annotate phylogenetic trees<br/><img src='/images/phyloki/phyloki_logo_light.png' width='500px'>"
+title: "Detection of Brno loanvirus in bats in Southern Russia"
+excerpt: "Russian Science Foundation grant research project (Don State Technical University; May 2024)<br/><img src='/images/PhoBl.png' width='500px'>"
 collection: portfolio
 ---
 
-<img src='/images/phyloki/phyloki_simple_light.png' width="25%">
+<a href="https://github.com/PopovIILab/PhoBl"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Lab journal </a><br>
 
-> Phyloki simplifies phylogenetic tree creation in microbiology and virology by facilitating sequence downloads from NCBI GenBank using accession numbers. It also reinstates organism names in trees constructed with IQ-TREE, retrieves host information about microorganisms, and prepares annotation datasets for further visualization in iTOL.
+PCR screening of hantaviruses in samples from bats in Rostov-on-Don showed some positive results. Phylogenetic analysis revealed that the isolated viruses are closely related to _Brno loanviruses_ found in Central Europe, suggesting they might be the same virus.<br>
 
-<a href="https://github.com/iliapopov17/phyloki"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
-<a href="https://github.com/iliapopov17/phyloki/wiki"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i> Usage Guide </a>
+This research demonstrates that _Brno loanvirus_ has a wide area of habitat: from Central Europe to Southern Russia.
 
-## Features
-### Sequence Downloading
-- Facilitates the retrieval of sequences from NCBI GenBank using specified accession numbers.
+Steps of the analysis:<br>
+    1. Downloading sequences from `NCBI`<br>
+    2. Multiple Sequence Alignment using `MAFFT`<br>
+    3. Maximum-likelihood phylogenetic tree reconstruction using `ModelFinder` & `IQ-TREE2`<br>
+    4. Plotting _Brno loanviruses_ area of habitat using `rnaturalearth`<br>
 
-### Organism Name Reintegration
-- Enhances IQ-TREE constructed trees by replacing accession numbers with the corresponding organism names for clarity and context.
-
-### Host Information Retrieval
-- Gathers host data for each microorganism, including the host's taxonomic order.
-
-### Annotation Dataset Preparation for iTOL
-- Utilizes the collected host information to prepare detailed annotation datasets, optimizing visualization in iTOL.
+<img src='/images/PhoBl.png'>
