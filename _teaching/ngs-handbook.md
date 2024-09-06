@@ -2,7 +2,7 @@
 title: "NGS Data Analysis"
 collection: teaching
 type: "Handbook"
-permalink: /teaching/ngs-handbook
+permalink: /ngs-handbook
 venue: "Own materials"
 date: 2024-09-01
 location: "Rostov-on-Don, Russia"
@@ -13,8 +13,6 @@ Detailed guidelines on NGS data analysis. Covers topics on: `Quality Control of 
 <img src='/images/NGS workflow.png'>
 
 _Typical workflow of NGS data analysis_
- 
-_Handbook's structure_
 
 ## 05 16S Amplicon Analysis 🧫
 
