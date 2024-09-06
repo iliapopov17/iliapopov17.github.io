@@ -2,7 +2,7 @@
 title: "NGS Data Analysis"
 collection: teaching
 type: "Handbook"
-permalink: /teaching/2024-autumn-teaching-2
+permalink: /teaching/ngs-handbook
 venue: "Own materials"
 date: 2024-09-01
 location: "Rostov-on-Don, Russia"
