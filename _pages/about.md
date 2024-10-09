@@ -16,6 +16,6 @@ Then, during my studies at the Bioinformatics Institute, I greatly improved my s
 
 Now I work at Alexey Ermakov’s lab at Don State Technical University, applying my knowledge and skills to achieve [top-tier results](https://github.com/PopovIILab).<br>
 
-I continuously advance my knowledge through ongoing [professional development](https://iliapopov17.github.io/cpds/).<br>
+I continuously advance my knowledge through ongoing [professional development](https://iliapopov17.github.io/certificates/).<br>
 
 In my free time, I love reading, traveling, and cycling!
