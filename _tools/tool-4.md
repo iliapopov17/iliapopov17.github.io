@@ -6,8 +6,6 @@ collection: tools
 
 <img src='/images/KaN_logo.png' align="left" width="25%">
 
-<br>
-
 ![Python3](https://img.shields.io/badge/Language-Python3-steelblue)
 ![Pandas](https://img.shields.io/badge/Dependecy-Pandas-steelblue)
 ![Seaborn](https://img.shields.io/badge/Dependecy-Seaborn-steelblue)
@@ -19,7 +17,6 @@ collection: tools
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 
-<br>
 <br>
 
 <a href="https://github.com/iliapopov17/KEGGaNOG"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i> Code & full README </a><br>
