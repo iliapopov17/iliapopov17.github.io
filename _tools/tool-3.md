@@ -1,6 +1,6 @@
 ---
 title: "Phyloki"
-excerpt: "Tool to automatically annotate phylogenetic trees<br/><br/>Status: In seek of ideas how to make it perfect<br/><img src='/images/phyloki/phyloki_logo_light.png' width='500px'>"
+excerpt: "Tool to automatically annotate phylogenetic trees<br/>Status: In seek of ideas how to make it perfect<br/><img src='/images/phyloki/phyloki_logo_light.png' width='500px'>"
 collection: tools
 ---
 
