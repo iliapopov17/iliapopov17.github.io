@@ -14,7 +14,7 @@ In my final year of medical school, I [interned in Indonesia](https://iliapopov1
 
 Then, during my studies at the Bioinformatics Institute, I greatly improved my skills and knowledge in this field. This resulted in a [research project](https://github.com/iliapopov17/The-shadow-of-HIV) aimed to detect indirect signs of HIV infection in cell-free DNA samples.<br>
 
-Now I work at Alexey Ermakov’s lab at Don State Technical University, applying my knowledge and skills to achieve [top-tier results](https://github.com/PopovIILab).<br>
+Now I work at Bat Rehab Lab at Don State Technical University, applying my knowledge and skills to achieve [top-tier results](https://github.com/PopovIILab).<br>
 
 I continuously advance my knowledge through ongoing [professional development](https://iliapopov17.github.io/certificates/).<br>
 
