@@ -7,8 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
-
 {% for post in site.tools %}
-  {% include archive-single.html %}
+  {% if post.external_url %}
+    <a href="{{ post.external_url }}" target="_blank">
+      {% include archive-single.html %}
+    </a>
+  {% else %}
+    <a href="{{ post.url }}">
+      {% include archive-single.html %}
+    </a>
+  {% endif %}
 {% endfor %}
-
