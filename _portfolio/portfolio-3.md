@@ -11,6 +11,7 @@ excerpt: "Study projects completed as part of the workshops undertaken during th
 8. Annotation of the immune repertoire derived from the T-cell population in a relatively healthy donor<br/>
 9. Single-cell CITE-seq analysis detailing the cellular composition and transcriptional profiles within human bone marrow<br/><img src='/images/bi_workshop.png' width='500px'>"
 collection: portfolio
+external_url: https://github.com/iliapopov17/BI-workshop-projects
 ---
 
 <img src='/images/bi_workshop.png' width="25%">

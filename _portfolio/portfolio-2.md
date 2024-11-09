@@ -2,6 +2,7 @@
 title: "The shadow of HIV"
 excerpt: "Research Project (Bioinformatics Institute; Feb 2024 – May 2024)<br/><img src='/images/HIV_shadow.png' width='500px'>"
 collection: portfolio
+external_url: https://github.com/iliapopov17/The-shadow-of-HIV
 ---
 
 Data of WGS-based non-invasive prenatal testing (NIPT) or cell-free DNA testing contains exogenous DNA (bacterial and viral). This information is too fragmentary to conduct full microbiome studies, but still interesting for expanding NIPT functionality.<br>
