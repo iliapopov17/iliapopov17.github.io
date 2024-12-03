@@ -5,13 +5,13 @@ permalink: /certificates/
 author_profile: true
 ---
 
-### On English
+### On English 🇬🇧
 
 <a href="/files/cpds/EN/pdfs/Statistics, R and data analysis.pdf"><img src='/files/cpds/EN/pngs/Statistics, R and data analysis.png' title="Statistics, R and data analysis" width="45%"/></a>
 <a href="/files/cpds/EN/pdfs/Python and Linux for bioinformatics and biology.pdf"><img src='/files/cpds/EN/pngs/Python and Linux for bioinformatics and biology.png' title="Python and Linux for bioinformatics and biology" width="45%"/></a>
 <a href="/files/cpds/EN/pdfs/Integrating AI into scientific work.pdf"><img src='/files/cpds/EN/pngs/Integrating AI into scientific work.png' title="Integrating AI into scientific work" width="45%"/></a>
 
-### On Russian
+### On Russian 🇷🇺
 
 <a href="/files/cpds/RU/pdfs/Analysis of NGS data.pdf"><img src='/files/cpds/RU/pngs/Analysis of NGS data.png' title="Analysis of NGS data" width="45%"/></a>
 <a href="/files/cpds/RU/pdfs/Python for data analysis in science.pdf"><img src='/files/cpds/RU/pngs/Python for data analysis in science.png' title="Python for data analysis in science" width="45%"/></a>
