@@ -3,11 +3,11 @@ I have a medical degree and have completed a retraining programme in bioinformat
 
 ### Research Internship
 
-Last year, I did an internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The report is available [here](https://iliapopov17.github.io/portfolio/portfolio-1/), the results are published [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299349).<br>
+Last year, I did an internship in Indonesia studying the composition and properties of the gut microbiota in stunted and normal children. The report is available [here](https://iliapopov17.github.io/research/research-1/), the results are published [here](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0299349).<br>
 
 ### Studying at the Bioinformatics Institute
 
-During my studies I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/portfolio/portfolio-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/portfolio/portfolio-4/), and plan to further enhance my Python skills. I’ve completed nine applied bioinformatics projects, with detailed reports and lab journals available in my [portfolio](https://iliapopov17.github.io/portfolio/portfolio-5/). I've thoroughly explored phylogenetics, outlining a complete research [pipeline](https://iliapopov17.github.io/portfolio/portfolio-6/). My research project involved detecting indirect signs of HIV infection in cell-free DNA samples, with results published [here](https://github.com/iliapopov17/The-shadow-of-HIV).
+During my studies I’ve developed two simple tools, [SequenceForge-Lite](https://iliapopov17.github.io/research/research-3/) and [MyAwesomeEDA](https://iliapopov17.github.io/research/research-4/), and plan to further enhance my Python skills. I’ve completed nine applied bioinformatics projects, with detailed reports and lab journals available in my [research](https://iliapopov17.github.io/research/research-5/). I've thoroughly explored phylogenetics, outlining a complete research [pipeline](https://iliapopov17.github.io/research/research-6/). My research project involved detecting indirect signs of HIV infection in cell-free DNA samples, with results published [here](https://github.com/iliapopov17/The-shadow-of-HIV).
 
 ### Working at Don State Technical University
 
@@ -40,4 +40,4 @@ title="test titile"></iframe>
 <br>
 The best cycling location yet: Rowing Channel, Rostov-on-Don<br>
 
-Occasionally, I enjoy writing detailed [handbook on NGS data analysis](https://iliapopov17.github.io/portfolio/portfolio-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.
+Occasionally, I enjoy writing detailed [handbook on NGS data analysis](https://iliapopov17.github.io/research/research-7/), driven by the memory of the challenges I faced during my own studies. My aspiration is that these materials will serve as valuable resources to others in their learning journeys in the near future.
