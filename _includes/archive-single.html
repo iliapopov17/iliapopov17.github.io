@@ -59,7 +59,7 @@
       <!-- citation and icon code -->
       <p>
       {% if post.citation %}
-        {{ post.citation }}
+        {{ post.citation | markdownify }}
       {% endif %}
       <br>
       {% if post.link %}
