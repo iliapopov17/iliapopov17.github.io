@@ -58,21 +58,36 @@
       
       <!-- citation and icon code -->
       <p>
-      {% if post.citation %}
-        {{ post.citation | markdownify }}
-      {% endif %}
-      {% if post.link %}
-        <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if post.paperurl %}
-        <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i> Full-text PDF</a>
-      {% endif %}
-      {% if post.code %}
-        <a href="{{ post.code }}"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>
-      {% endif %}
-      {% if post.github %}
-        <a href="{{ post.github }}"><i class="fab fa-fw fa-github zoom" aria-hidden="true"></i></a>
-      {% endif %}
+        {% if post.citation %}
+          {{ post.citation | markdownify }}
+        {% endif %}
+
+        {% if post.link %}
+          <a href="{{ post.link }}"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>
+        {% endif %}
+
+        {% assign links = "" %}
+        {% capture sep %} / {% endcapture %}
+
+        {% if post.paperurl %}
+          {% assign links = links | append: "<a href='" | append: post.paperurl | append: "'><i class='fas fa-fw fa-file-pdf zoom' aria-hidden='true'></i> Full-text PDF</a>" %}
+        {% endif %}
+
+        {% if post.code %}
+          {% if links != "" %}
+            {% assign links = links | append: sep %}
+          {% endif %}
+          {% assign links = links | append: "<a href='" | append: post.code | append: "'><i class='fas fa-fw fa-code zoom' aria-hidden='true'></i> Data Analysis Code</a>" %}
+        {% endif %}
+
+        {% if post.github %}
+          {% if links != "" %}
+            {% assign links = links | append: sep %}
+          {% endif %}
+          {% assign links = links | append: "<a href='" | append: post.github | append: "'><i class='fab fa-fw fa-github zoom' aria-hidden='true'></i> Data Analysis Repo</a>" %}
+        {% endif %}
+
+        {{ links | raw }}
       </p>
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
