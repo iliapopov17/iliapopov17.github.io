@@ -28,8 +28,18 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     
-    {% if post.date %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+    {% if post.date or post.location %}
+      <p class="page__meta">
+        {% if post.date %}
+          <i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+        {% endif %}
+        {% if post.date and post.location %}
+          &nbsp;&nbsp; <!-- spacing between icon/text pairs -->
+        {% endif %}
+        {% if post.location %}
+          <i class="fa fa-map-pin" aria-hidden="true"></i> {{ post.location }}
+        {% endif %}
+      </p>
     {% endif %}
     
     {% if post.venue %}
@@ -37,7 +47,7 @@
       {% if post.type %}
         {{ post.type }}, 
       {% endif %}
-      {{ post.venue }}, {{ post.location }}
+      {{ post.venue }}
     </p>
     {% endif %}
     
