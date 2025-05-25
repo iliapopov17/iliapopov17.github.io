@@ -85,7 +85,8 @@
       <p>
         {% if post.authors %}
           <p>
-            {{ post.authors | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }} <i>{{ post.journal }}</i> {{ post.year }}<br>
+            {{ post.authors | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
+            <i>{{ post.journal }}</i> {{ post.year }}<br>
             {{ post.doi | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
           </p>
         {% endif %}
