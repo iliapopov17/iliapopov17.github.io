@@ -1,6 +1,10 @@
 ---
 title: "Whole genome metagenomic analysis of the gut microbiome of bats"
-excerpt: "Russian Science Foundation project<br/>Don State Technical University; June 2024 – Aug 2024<br/><img src='/images/research/BatShotMetaFlow.png' width='500px'>"
 collection: research
+from: 2024-06-01
+to: 2024-08-01
+info: "Russian Science Foundation project"
+venue: "Don State Technical University"
+logo: "<img src='/images/research/BatShotMetaFlow.png' width='500px'>"
 external_url: https://github.com/PopovIILab/BatShotMetaFlow
 ---

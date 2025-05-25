@@ -45,6 +45,31 @@
 
     {% if post.collection == 'teaching' %}
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+    {% elsif post.collection == 'tools' %}
+      <p>
+        <strong>About</strong>: {{ post.about }}<br>
+        <strong>Status</strong>: {{ post.status }}<br>
+        {{ post.downloads | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+        {{ post.version | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+        {{ post.stars | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
+        {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+      </p>
+
+    {% elsif post.collection == 'research' %}
+      {% if post.from and post.to %}
+        <p class="page__meta">
+          <i class="fa fa-clock" aria-hidden="true"></i>
+          {% if post.from == post.to %}
+            {{ post.from | date: '%B, %Y' }}
+          {% else %}
+            {{ post.from | date: '%B, %Y' }} – {{ post.to | date: '%B, %Y' }}
+          {% endif %}
+        </p>
+      {% endif %}
+      
+      {{ post.info | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
+      {{ post.venue }}<br>
+      {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
     {% elsif post.collection == 'publications' %}
       {% if post.abstract %}
         <details><summary>Abstract</summary>
@@ -58,8 +83,11 @@
       
       <!-- citation and icon code -->
       <p>
-        {% if post.citation %}
-          {{ post.citation | markdownify }}
+        {% if post.authors %}
+          <p>
+            {{ post.authors | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }} <i>{{ post.journal }}</i> {{ post.year }}<br>
+            {{ post.doi | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+          </p>
         {% endif %}
 
         {% if post.link %}
