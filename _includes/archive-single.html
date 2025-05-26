@@ -56,7 +56,7 @@
       </p>
 
     {% elsif post.collection == 'research' %}
-      {% if post.from and post.to %}
+      {% if post.from and post.to or post.venue %}
         <p class="page__meta">
           <i class="fa fa-clock" aria-hidden="true"></i>
           {% if post.from == post.to %}
@@ -64,11 +64,16 @@
           {% else %}
             {{ post.from | date: '%B, %Y' }} – {{ post.to | date: '%B, %Y' }}
           {% endif %}
+          {% if post.from and post.to and post.venue %}
+            &nbsp;&nbsp; <!-- spacing between icon/text pairs -->
+          {% endif %}
+          {% if post.venue %}
+            <i class="fa fa-briefcase" aria-hidden="true"></i> {{ post.venue }}
+          {% endif %}
         </p>
       {% endif %}
       
       {{ post.info | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
-      {{ post.venue }}<br>
       {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
     {% elsif post.collection == 'publications' %}
       {% if post.abstract %}
