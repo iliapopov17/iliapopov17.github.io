@@ -4,8 +4,9 @@ collection: teaching
 type: "Guest lecture"
 permalink: /teaching/2023-summer-teaching-1
 venue: "BINUS University, Food Technology Department"
-date: 2023-06-12
-location: "Jakarta, Indonesia"
+from: 2023-06-12
+to: 2023-06-12
+location: "Jakarta, Indonesia 🇮🇩"
 ---
 
 Lecture for 2nd year undergraduate students who are new to the study of microbiology on «Culture-independent methods for qualitative and quantitative microbiological detection and identification».<br>

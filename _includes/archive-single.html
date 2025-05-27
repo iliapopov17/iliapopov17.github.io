@@ -37,14 +37,43 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
-    
-    {% if post.read_time %}
-    {% elsif post.read_time and post.collection == 'posts' %}
+
+    {% if post.read_time and post.collection == 'posts' %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
     {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+      {% if post.type or post.from and post.to or post.location %}
+        <p class="page__meta">
+          {% if post.type %}
+            <i class="fa fa-info-circle" aria-hidden="true"></i> {{ post.type }}
+            &nbsp;&nbsp;
+          {% endif %}
+          {% if post.from and post.to or post.location %}
+            <i class="fa fa-clock" aria-hidden="true"></i>
+            {% if post.from == post.to %}
+              {{ post.from | date: '%d %B, %Y' }}
+            {% else %}
+              {{ post.from | date: '%d %B, %Y' }} – {{ post.to | date: '%d %B, %Y' }}
+            {% endif %}
+          {% endif %}
+        </p>
+      {% endif %}
+
+      {% if post.venue or post.location %}
+        <p class="page__meta">
+          {% if post.venue %}
+            <i class="fa fa-briefcase" aria-hidden="true"></i> {{ post.venue }}
+          {% endif %}
+          {% if post.venue and post.location %}
+            &nbsp;&nbsp;
+          {% endif %}
+          {% if post.location %}
+            <i class="fa fa-map-pin" aria-hidden="true"></i> {{ post.location }}
+          {% endif %}
+        </p>
+      {% endif %}
+
     {% elsif post.collection == 'tools' %}
       <p>
         <strong>About</strong>: {{ post.about }}<br>
@@ -65,16 +94,17 @@
             {{ post.from | date: '%B, %Y' }} – {{ post.to | date: '%B, %Y' }}
           {% endif %}
           {% if post.from and post.to and post.venue %}
-            &nbsp;&nbsp; <!-- spacing between icon/text pairs -->
+            &nbsp;&nbsp;
           {% endif %}
           {% if post.venue %}
             <i class="fa fa-briefcase" aria-hidden="true"></i> {{ post.venue }}
           {% endif %}
         </p>
       {% endif %}
-      
+
       {{ post.info | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
       {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+
     {% elsif post.collection == 'publications' %}
       {% if post.abstract %}
         <details><summary>Abstract</summary>
@@ -85,8 +115,7 @@
         </blockquote>
         </details>
       {% endif %}
-      
-      <!-- citation and icon code -->
+
       <p>
         {% if post.authors %}
           <p>
@@ -125,10 +154,11 @@
 
         {{ links | raw }}
       </p>
+
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
     {% endif %}
-    
+
     {% if post.excerpt and post.collection == 'research2' and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">
@@ -140,7 +170,7 @@
         </a>
       </p>
     {% elsif post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">
         <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
@@ -150,6 +180,6 @@
         </p>
       </p>
     {% endif %}
-    
+
   </article>
 </div>
