@@ -52,9 +52,9 @@
           {% if post.from and post.to or post.location %}
             <i class="fa fa-clock" aria-hidden="true"></i>
             {% if post.from == post.to %}
-              {{ post.from | date: '%d %B, %Y' }}
+              {{ post.from | date: '%B %d, %Y' }}
             {% else %}
-              {{ post.from | date: '%d %B, %Y' }} – {{ post.to | date: '%d %B, %Y' }}
+              {{ post.from | date: '%B %d, %Y' }} – {{ post.to | date: '%B %d, %Y' }}
             {% endif %}
           {% endif %}
         </p>
