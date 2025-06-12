@@ -28,13 +28,19 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     
-    {% if post.date or post.location %}
+    {% if post.date or post.venue or post.location %}
       <p class="page__meta">
         {% if post.date %}
           <i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
         {% endif %}
-        {% if post.date and post.location %}
-          &nbsp;&nbsp; <!-- spacing between icon/text pairs -->
+        {% if post.date and (post.venue or post.location) %}
+          &nbsp;&nbsp;
+        {% endif %}
+        {% if post.venue %}
+          <i class="fa fa-briefcase" aria-hidden="true"></i> {{ post.venue }}
+        {% endif %}
+        {% if post.venue and post.location %}
+          &nbsp;&nbsp;
         {% endif %}
         {% if post.location %}
           <i class="fa fa-map-pin" aria-hidden="true"></i> {{ post.location }}
@@ -42,12 +48,12 @@
       </p>
     {% endif %}
     
-    {% if post.venue %}
+    {% if post.conference %}
     <p class="archive__item-excerpt" itemprop="description">
       {% if post.type %}
         {{ post.type }}, 
       {% endif %}
-      {{ post.venue }}
+      <i>{{ post.conference }}</i>
     </p>
     {% endif %}
     
