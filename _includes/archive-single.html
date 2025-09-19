@@ -143,7 +143,7 @@
           {% if links != "" %}
             {% assign links = links | append: sep %}
           {% endif %}
-          {% assign links = links | append: "<a href='" | append: post.code | append: "'><i class='fas fa-fw fa-code zoom' aria-hidden='true'></i>Code</a>" %}
+          {% assign links = links | append: "<a href='" | append: post.code | append: "'><i class='fas fa-fw fa-code zoom' aria-hidden='true'></i> Code</a>" %}
         {% endif %}
 
         {% if post.github %}
