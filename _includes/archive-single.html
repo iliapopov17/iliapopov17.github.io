@@ -78,6 +78,7 @@
       <p>
         <strong>About</strong>: {{ post.about }}<br>
         <strong>Status</strong>: {{ post.status }}<br>
+        {{ post.doi | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
         {{ post.downloads | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
         {{ post.version | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
         {{ post.stars | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
