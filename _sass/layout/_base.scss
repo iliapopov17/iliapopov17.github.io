@@ -6,6 +6,14 @@
     position: relative;
     min-height: 100%;
   }
+
+  html.no-vscroll {
+    padding-right: var(--sbw, 0px);
+
+    .masthead {
+      padding-right: var(--sbw, 0px);
+    }
+  }
   
   body {
     margin: 0;

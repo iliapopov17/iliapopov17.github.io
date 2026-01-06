@@ -310,6 +310,22 @@
 }
 
 
+/* Active navigation states */
+.masthead__menu-item.selected a,
+.masthead__menu-item.active a {
+  color: var(--global-text-color, $dark-gray);
+  font-weight: 700;
+  border-bottom: 2px solid var(--global-text-color, $dark-gray);
+  pointer-events: none;
+  cursor: default;
+}
+
+.masthead__menu-item.selected a:hover,
+.masthead__menu-item.active a:hover {
+  color: var(--global-text-color, $dark-gray);
+  border-bottom: 2px solid var(--global-text-color, $dark-gray);
+}
+
 /*
    Navigation list
    ========================================================================== */
