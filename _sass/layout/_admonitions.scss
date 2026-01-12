@@ -70,7 +70,7 @@
 
 /* --- Keyword highlighting (IDE-like) --- */
 .admonition .kw {
-  padding: 0.05em 0.3em;
+  padding: 0 0.3em;
   border-radius: 3px;
   background-color: rgba(68, 138, 255, 0.12);
   color: #2979ab;
@@ -79,7 +79,7 @@
 }
 
 .admonition .kw:hover {
-  background-color: rgba(68, 138, 255, 0.2);
+  background-color: rgba(68, 138, 255, 0.24);
 }
 
 /* ================================================================
