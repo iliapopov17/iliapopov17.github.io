@@ -61,4 +61,7 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% endif %}
   </article>
+  {% unless include.is_last %}
+    <hr class="archive__divider">
+  {% endunless %}
 </div>

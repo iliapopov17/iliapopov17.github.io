@@ -20,6 +20,8 @@ author_profile: true
   </p>
 </div>
 
+
 {% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+  {% assign is_last = forloop.last %}
+  {% include archive-single-talk.html is_last=is_last %}
 {% endfor %}

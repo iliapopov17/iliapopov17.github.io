@@ -9,6 +9,6 @@ author_profile: true
 
 
 {% for post in site.tools %}
-  {% include archive-single.html %}
+  {% assign is_last = forloop.last %}
+  {% include archive-single.html is_last=is_last %}
 {% endfor %}
-
