@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div class="admonition info">
-  <p class="admonition-title">Info</p>
+  <p class="admonition-title">Note</p>
   <p>
     You can download a PDF copy of my CV <a href="/files/Ilia_Popov_CV.pdf">here</a> or view it below:
   </p>
