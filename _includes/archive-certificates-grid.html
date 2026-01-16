@@ -1,0 +1,18 @@
+<div class="certificates">
+  {% for cert in include.items %}
+    <a
+      class="certificate"
+      href="{{ cert.pdf }}"
+      title="{{ cert.title }}"
+      target="_blank"
+      rel="noopener"
+    >
+      <img
+        src="{{ cert.png }}"
+        alt="{{ cert.title }}"
+        loading="lazy"
+      />
+      <!-- <span class="certificate__title">{{ cert.title }}</span> -->
+    </a>
+  {% endfor %}
+</div>
