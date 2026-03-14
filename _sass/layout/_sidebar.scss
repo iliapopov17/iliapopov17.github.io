@@ -198,7 +198,7 @@ html.no-vscroll {
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: #fff;
-    z-index: 8;
+    z-index: -1;
     box-shadow: 0 0 10px rgba(#000, 0.25);
     cursor: default;
   
@@ -208,7 +208,7 @@ html.no-vscroll {
       margin: 0;
       padding: 0;
       border: 0;
-      background: #fff;
+      background: transparent;
       box-shadow: none;
     }
   
@@ -221,7 +221,7 @@ html.no-vscroll {
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: $border-color;
+      border-color: $border-color transparent;
       z-index: 0;
   
       @include breakpoint($large) {
@@ -238,7 +238,7 @@ html.no-vscroll {
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff;
+      border-color: #fff transparent;
       z-index: 1;
   
       @include breakpoint($large) {
@@ -248,7 +248,6 @@ html.no-vscroll {
   
     li {
       white-space: nowrap;
-      background: #fff;
     }
   
     a {
