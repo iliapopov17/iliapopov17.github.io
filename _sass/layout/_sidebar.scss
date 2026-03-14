@@ -199,7 +199,7 @@ html.no-vscroll {
     border-radius: $border-radius;
     background: #fff;
     z-index: 8;
-    box-shadow: 0 0 10px rgba(#000, 0.75);
+    box-shadow: 0 0 10px rgba(#000, 0.25);
     cursor: default;
   
     @include breakpoint($large) {
@@ -208,7 +208,7 @@ html.no-vscroll {
       margin: 0;
       padding: 0;
       border: 0;
-      background: transparent;
+      background: #fff;
       box-shadow: none;
     }
   
