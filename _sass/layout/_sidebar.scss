@@ -198,7 +198,7 @@ html.no-vscroll {
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: #fff;
-    z-index: 8;
+    z-index: 100;
     box-shadow: 0 0 10px rgba(#000, 0.25);
     cursor: default;
   
@@ -257,7 +257,7 @@ html.no-vscroll {
       padding-right: 5px;
       padding-top: 2px;
       padding-bottom: 2px;
-      color: inherit;
+      color: #fff;
       font-size: $type-size-5;
       text-decoration: none;
   
