@@ -6,7 +6,8 @@ author_profile: true
 ---
 
 <style>
-  .publication__authors { margin-top: 0.05em; }
+  .archive__item-title { margin-bottom: 0.05em !important; }
+  .publication__authors { margin-top: 0 !important; }
 </style>
 
 {% if site.author.googlescholar %}

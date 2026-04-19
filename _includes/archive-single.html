@@ -117,12 +117,12 @@
         </details>
       {% endif %}
 
-      <p>
+      <div class="publication__body">
         {% if post.authors %}
           <p class="publication__authors">
             {{ post.authors | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
             <span style="color: gray; font-size: 90%;">
-              <i class="fa fa-book" aria-hidden="true"></i> <i>{{ post.journal }}</i>, 
+              <i class="fa fa-book" aria-hidden="true"></i> <i>{{ post.journal }}</i>,
               {{ post.year }}
             </span><br>
             {{ post.doi | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
@@ -155,7 +155,7 @@
         {% endif %}
 
         {{ links | raw }}
-      </p>
+      </div>
 
     {% elsif post.collection == 'posts' and post.date %}
       <p class="page__date"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
