@@ -37,7 +37,7 @@ layout: default
         
         {% if page.collection == 'teaching' %}
           {% if page.type or page.from and page.to or page.location %}
-            <p class="page__meta">
+            <p class="page__meta" style="margin-top: 0;">
               {% if page.type %}
                 <i class="fa fa-info-circle" aria-hidden="true"></i> {{ page.type }}
                 &nbsp;&nbsp;
@@ -53,7 +53,7 @@ layout: default
             </p>
           {% endif %}
           {% if page.venue or page.location %}
-            <p class="page__meta">
+            <p class="page__meta" style="margin-top: 0;">
               {% if page.venue %}
                 <i class="fa fa-briefcase" aria-hidden="true"></i> {{ page.venue }}
               {% endif %}
