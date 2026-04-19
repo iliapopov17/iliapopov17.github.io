@@ -2,7 +2,7 @@
 title: "Introduction to phylogenetic analysis with Python and R programming"
 collection: teaching
 type: "Workshop"
-permalink: /2025-spring-teaching-2
+permalink: /teaching/2025-spring-teaching-2
 venue: "Mongolian National University of Education, Department of Biology"
 from: 2025-05-15
 to: 2025-05-16
