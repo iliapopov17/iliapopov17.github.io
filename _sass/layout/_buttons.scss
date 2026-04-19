@@ -48,14 +48,13 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: var(--text) !important;
-    border: 1px solid var(--border) !important;
-    background-color: var(--bg);
+    color: $gray !important;
+    border: 1px solid $light-gray !important; /* override*/
+    background-color: #fff;
 
     &:hover {
       color: #fff !important;
-      border-color: var(--accent) !important;
-      background-color: var(--accent);
+      border-color: $gray;
     }
   }
 
@@ -163,16 +162,17 @@
     display: inline-block;
     margin-bottom: 0.25em;
     padding: 0.125em 0.25em;
-    color: var(--accent);
+    color: $link-color;
     text-align: center;
     text-decoration: none !important;
-    border: 1px solid var(--accent);
+    border: 1px solid;
+    border-color: $link-color;
     border-radius: $border-radius;
     cursor: pointer;
 
     &:hover {
       color: #fff;
-      background-color: var(--accent) !important;
+      background-color: $link-color !important;
     }
   }
   
