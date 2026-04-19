@@ -17,135 +17,133 @@
   --shadow:          0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    @include dark-tokens;
+@mixin dark-styles {
+  body {
+    background-color: var(--bg);
+    color: var(--text);
   }
-}
 
-[data-theme="dark"] {
-  @include dark-tokens;
-}
+  .masthead {
+    background: var(--masthead-bg);
+    border-bottom-color: var(--border);
+  }
 
-/* ---- Apply tokens to elements ---- */
+  .greedy-nav {
+    background: transparent;
 
-:root[data-theme="dark"],
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    body {
-      background-color: var(--bg);
+    a { color: var(--text); }
+    a:hover { color: var(--accent); }
+
+    button {
+      background-color: var(--bg-secondary);
       color: var(--text);
     }
 
-    .masthead {
-      background: var(--masthead-bg);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom-color: var(--border);
-    }
-
-    .greedy-nav {
-      background: transparent;
-
-      a { color: var(--text); }
-      a:hover { color: var(--accent); }
-
-      button {
-        background-color: var(--bg-secondary);
-        color: var(--text);
-      }
-
-      .hidden-links {
-        background: var(--bg-secondary);
-        border-color: var(--border);
-
-        &:after { border-color: var(--bg-secondary) transparent; }
-        &:before { border-color: var(--border) transparent; }
-
-        a:hover { background: var(--bg); }
-      }
-    }
-
-    .masthead__menu-item.selected a,
-    .masthead__menu-item.active a {
-      color: var(--accent);
-      border-bottom-color: var(--accent);
-    }
-
-    .page__footer {
-      background-color: var(--bg-secondary);
-      border-top-color: var(--border);
-      color: var(--text-muted);
-    }
-
-    .author__urls {
+    .hidden-links {
       background: var(--bg-secondary);
       border-color: var(--border);
+
       &:after { border-color: var(--bg-secondary) transparent; }
       &:before { border-color: var(--border) transparent; }
+
+      a:hover { background: var(--bg); }
     }
+  }
 
-    .author__avatar img {
-      border-color: var(--border);
+  .masthead__menu-item.selected a,
+  .masthead__menu-item.active a {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+
+  .page__footer {
+    background-color: var(--bg-secondary);
+    border-top-color: var(--border);
+    color: var(--text-muted);
+  }
+
+  .author__urls {
+    background: var(--bg-secondary);
+    border-color: var(--border);
+    &:after { border-color: var(--bg-secondary) transparent; }
+    &:before { border-color: var(--border) transparent; }
+  }
+
+  .author__avatar img {
+    border-color: var(--border);
+  }
+
+  .toc {
+    background-color: var(--bg-secondary);
+    border-color: var(--border);
+    .nav__title { background: var(--accent); }
+  }
+
+  .toc__menu a {
+    color: var(--text-muted);
+    border-bottom-color: var(--border);
+    &:hover {
+      color: var(--text);
+      background: var(--bg);
     }
+  }
 
-    .toc {
-      background-color: var(--bg-secondary);
-      border-color: var(--border);
-      .nav__title { background: var(--accent); }
+  .nav__sub-title { border-bottom-color: var(--border); }
+
+  .page__content h2 { border-bottom-color: var(--border); }
+
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    background: var(--code-bg);
+    border-color: var(--border);
+  }
+
+  .btn--inverse {
+    color: var(--text) !important;
+    background-color: var(--bg-secondary);
+    border-color: var(--border) !important;
+    &:hover {
+      color: #fff !important;
+      background-color: var(--accent);
+      border-color: var(--accent) !important;
     }
+  }
 
-    .toc__menu a {
-      color: var(--text-muted);
-      border-bottom-color: var(--border);
-      &:hover {
-        color: var(--text);
-        background: var(--bg);
-      }
-    }
+  a {
+    color: var(--accent);
+    &:hover { color: var(--accent-hover); }
+  }
 
-    .nav__sub-title { border-bottom-color: var(--border); }
+  hr { border-top-color: var(--border); }
 
-    .page__content h2 { border-bottom-color: var(--border); }
+  blockquote { border-left-color: var(--accent); }
 
-    p > code,
-    a > code,
-    li > code,
-    figcaption > code,
-    td > code {
-      background: var(--code-bg);
-      border-color: var(--border);
-    }
-
-    .btn--inverse {
-      color: var(--text) !important;
-      background-color: var(--bg-secondary);
-      border-color: var(--border) !important;
-      &:hover {
-        color: #fff !important;
-        background-color: var(--accent);
-        border-color: var(--accent) !important;
-      }
-    }
-
-    a {
-      color: var(--accent);
-      &:hover { color: var(--accent-hover); }
-    }
-
-    hr { border-top-color: var(--border); }
-
-    blockquote { border-left-color: var(--accent); }
-
-    table {
-      th { background-color: var(--bg-secondary); }
-      td, th { border-color: var(--border); }
-      tr:nth-child(even) { background-color: var(--bg-secondary); }
-    }
+  table {
+    th { background-color: var(--bg-secondary); }
+    td, th { border-color: var(--border); }
+    tr:nth-child(even) { background-color: var(--bg-secondary); }
   }
 }
 
-/* ---- Light mode: also use CSS tokens (ensures consistency) ---- */
+/* System preference */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-tokens;
+    @include dark-styles;
+  }
+}
+
+/* Manual override */
+[data-theme="dark"] {
+  @include dark-tokens;
+  @include dark-styles;
+}
+
+/* ---- Light mode base styles (tokens always applied) ---- */
+
 body {
   background-color: var(--bg);
   color: var(--text);
@@ -210,8 +208,7 @@ a {
   .icon-moon { display: block; }
 }
 
-[data-theme="light"] .theme-toggle,
-:root:not([data-theme="dark"]) .theme-toggle {
+[data-theme="light"] .theme-toggle {
   .icon-sun  { display: block; }
   .icon-moon { display: none; }
 }
