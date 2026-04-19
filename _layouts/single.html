@@ -36,23 +36,35 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p>
-            {% if page.type %}{{ page.type }}{% endif %}
-            {% if page.type and page.venue %}, {% endif %}
-            {% if page.venue %}<i>{{ page.venue }}</i>{% endif %}
-            {% if page.from %}
-              {% if page.type or page.venue %}, {% endif %}
-              {% if page.from == page.to %}
-                {{ page.from | date: "%B %d, %Y" }}
-              {% else %}
-                {{ page.from | date: "%B %d, %Y" }} – {{ page.to | date: "%B %d, %Y" }}
+          {% if page.type or page.from and page.to or page.location %}
+            <p class="page__meta">
+              {% if page.type %}
+                <i class="fa fa-info-circle" aria-hidden="true"></i> {{ page.type }}
+                &nbsp;&nbsp;
               {% endif %}
-            {% endif %}
-            {% if page.location %}
-              {% if page.type or page.venue or page.from %}, {% endif %}
-              {{ page.location }}
-            {% endif %}
-          </p>
+              {% if page.from and page.to or page.location %}
+                <i class="fa fa-clock" aria-hidden="true"></i>
+                {% if page.from == page.to %}
+                  {{ page.from | date: '%B %d, %Y' }}
+                {% else %}
+                  {{ page.from | date: '%B %d, %Y' }} – {{ page.to | date: '%B %d, %Y' }}
+                {% endif %}
+              {% endif %}
+            </p>
+          {% endif %}
+          {% if page.venue or page.location %}
+            <p class="page__meta">
+              {% if page.venue %}
+                <i class="fa fa-briefcase" aria-hidden="true"></i> {{ page.venue }}
+              {% endif %}
+              {% if page.venue and page.location %}
+                &nbsp;&nbsp;
+              {% endif %}
+              {% if page.location %}
+                <i class="fa fa-map-pin" aria-hidden="true"></i> {{ page.location }}
+              {% endif %}
+            </p>
+          {% endif %}
         {% elsif page.venue and page.date %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date and page.read_time %}
