@@ -10,6 +10,8 @@
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  // Anti-FOUC: apply stored theme before first paint
+  (function(){var t=localStorage.getItem('theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}})();
 </script>
 
 <!-- Google Fonts: IBM Plex Mono (for admonitions) -->

@@ -1,0 +1,224 @@
+/* ==========================================================================
+   DARK MODE
+   Activated by: system preference OR [data-theme="dark"] on <html>
+   Suppressed by: [data-theme="light"] on <html>
+   ========================================================================== */
+
+@mixin dark-tokens {
+  --bg:              #0d1117;
+  --bg-secondary:    #161b22;
+  --text:            #e6edf3;
+  --text-muted:      #8b949e;
+  --border:          #30363d;
+  --accent:          #4493f8;
+  --accent-hover:    #6aadfa;
+  --masthead-bg:     rgba(13, 17, 23, 0.90);
+  --code-bg:         #161b22;
+  --shadow:          0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark-tokens;
+  }
+}
+
+[data-theme="dark"] {
+  @include dark-tokens;
+}
+
+/* ---- Apply tokens to elements ---- */
+
+:root[data-theme="dark"],
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    .masthead {
+      background: var(--masthead-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom-color: var(--border);
+    }
+
+    .greedy-nav {
+      background: transparent;
+
+      a { color: var(--text); }
+      a:hover { color: var(--accent); }
+
+      button {
+        background-color: var(--bg-secondary);
+        color: var(--text);
+      }
+
+      .hidden-links {
+        background: var(--bg-secondary);
+        border-color: var(--border);
+
+        &:after { border-color: var(--bg-secondary) transparent; }
+        &:before { border-color: var(--border) transparent; }
+
+        a:hover { background: var(--bg); }
+      }
+    }
+
+    .masthead__menu-item.selected a,
+    .masthead__menu-item.active a {
+      color: var(--accent);
+      border-bottom-color: var(--accent);
+    }
+
+    .page__footer {
+      background-color: var(--bg-secondary);
+      border-top-color: var(--border);
+      color: var(--text-muted);
+    }
+
+    .author__urls {
+      background: var(--bg-secondary);
+      border-color: var(--border);
+      &:after { border-color: var(--bg-secondary) transparent; }
+      &:before { border-color: var(--border) transparent; }
+    }
+
+    .author__avatar img {
+      border-color: var(--border);
+    }
+
+    .toc {
+      background-color: var(--bg-secondary);
+      border-color: var(--border);
+      .nav__title { background: var(--accent); }
+    }
+
+    .toc__menu a {
+      color: var(--text-muted);
+      border-bottom-color: var(--border);
+      &:hover {
+        color: var(--text);
+        background: var(--bg);
+      }
+    }
+
+    .nav__sub-title { border-bottom-color: var(--border); }
+
+    .page__content h2 { border-bottom-color: var(--border); }
+
+    p > code,
+    a > code,
+    li > code,
+    figcaption > code,
+    td > code {
+      background: var(--code-bg);
+      border-color: var(--border);
+    }
+
+    .btn--inverse {
+      color: var(--text) !important;
+      background-color: var(--bg-secondary);
+      border-color: var(--border) !important;
+      &:hover {
+        color: #fff !important;
+        background-color: var(--accent);
+        border-color: var(--accent) !important;
+      }
+    }
+
+    a {
+      color: var(--accent);
+      &:hover { color: var(--accent-hover); }
+    }
+
+    hr { border-top-color: var(--border); }
+
+    blockquote { border-left-color: var(--accent); }
+
+    table {
+      th { background-color: var(--bg-secondary); }
+      td, th { border-color: var(--border); }
+      tr:nth-child(even) { background-color: var(--bg-secondary); }
+    }
+  }
+}
+
+/* ---- Light mode: also use CSS tokens (ensures consistency) ---- */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.masthead {
+  background: var(--masthead-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom-color: var(--border);
+}
+
+.greedy-nav {
+  background: transparent;
+  a { color: var(--text); }
+  a:hover { color: var(--accent); }
+  button { background-color: var(--accent); }
+  .hidden-links {
+    background: var(--bg);
+    border-color: var(--border);
+    &:after { border-color: var(--bg) transparent; }
+    &:before { border-color: var(--border) transparent; }
+  }
+}
+
+a {
+  color: var(--accent);
+  &:hover { color: var(--accent-hover); }
+}
+
+/* ---- Theme toggle button ---- */
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-left: 0.5rem;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  flex-shrink: 0;
+
+  &:hover {
+    background: var(--bg-secondary);
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+  }
+
+  .icon-sun  { display: none; }
+  .icon-moon { display: block; }
+}
+
+[data-theme="light"] .theme-toggle,
+:root:not([data-theme="dark"]) .theme-toggle {
+  .icon-sun  { display: block; }
+  .icon-moon { display: none; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle {
+    .icon-sun  { display: block; }
+    .icon-moon { display: none; }
+  }
+}
