@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+  .publication__authors { margin-top: 0.05em; }
+</style>
+
 {% if site.author.googlescholar %}
   <div class="admonition note">
   <p class="admonition-title">Note</p>
