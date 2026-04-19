@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 <style>
-  .archive__item-title { margin-bottom: 0.25em !important; }
+  .archive__item-title { margin-bottom: 0.5em !important; }
   .publication__authors { margin-top: 0 !important; }
 </style>
 
