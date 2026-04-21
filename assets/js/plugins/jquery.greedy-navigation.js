@@ -15,13 +15,12 @@ var breaks = [];
 function updateNav() {
 
   var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
-  var vlinksWidth = $vlinks[0].scrollWidth;
 
   // The visible list is overflowing the nav
-  if(vlinksWidth > availableSpace) {
+  if($vlinks.width() > availableSpace) {
 
     // Record the width of the list
-    breaks.push(vlinksWidth);
+    breaks.push($vlinks.width());
 
     // Move item to the hidden list
     $vlinks.children().last().prependTo($hlinks);
@@ -53,7 +52,7 @@ function updateNav() {
   $btn.attr("count", breaks.length);
 
   // Recur if the visible list is still overflowing the nav
-  if($vlinks[0].scrollWidth > availableSpace) {
+  if($vlinks.width() > availableSpace) {
     updateNav();
   }
 
