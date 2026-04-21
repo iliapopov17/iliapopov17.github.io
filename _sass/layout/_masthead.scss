@@ -21,7 +21,9 @@
       @include container;
       @include clearfix;
       padding: 0 1em;
-      line-height: $masthead-height;
+      height: $masthead-height;
+      display: flex;
+      align-items: center;
       font-family: $sans-serif-narrow;
 
       @include breakpoint($x-large) {
