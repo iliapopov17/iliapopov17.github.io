@@ -20,7 +20,10 @@
     &__inner-wrap {
       @include container;
       @include clearfix;
-      padding: 1em 1em 1em;
+      padding: 0;
+      height: $masthead-height;
+      display: flex;
+      align-items: center;
       font-family: $sans-serif-narrow;
 
       @include breakpoint($x-large) {
