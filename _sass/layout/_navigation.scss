@@ -177,11 +177,12 @@
   position: relative;
   min-width: 250px;
   background: $background-color;
+  height: $masthead-height;
 
   a {
     display: block;
     margin: 0 1rem;
-    padding: 0.18rem 0;
+    padding: 0;
     color: $masthead-link-color;
     text-decoration: none;
 
@@ -204,6 +205,7 @@
 
   .visible-links {
     display: table;
+    height: $masthead-height;
 
     li {
       display: table-cell;
