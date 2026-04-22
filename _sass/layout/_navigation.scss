@@ -233,7 +233,7 @@
         content: "";
         position: absolute;
         left: 0;
-        bottom: 0;
+        bottom: -$masthead-active-underline;
         height: 4px;
         background: $masthead-link-color-hover;
         width: 100%;
@@ -315,9 +315,9 @@
 /* Active navigation states */
 .masthead__menu-item.selected a,
 .masthead__menu-item.active a {
-  color: var(--global-text-color, $dark-gray);
+  color: var(--global-text-color, $text-color);
   font-weight: 700;
-  border-bottom: 2px solid var(--global-text-color, $dark-gray);
+  border-bottom: $masthead-active-underline solid var(--global-text-color, $dark-gray);
   pointer-events: none;
   cursor: default;
 }
@@ -325,7 +325,7 @@
 .masthead__menu-item.selected a:hover,
 .masthead__menu-item.active a:hover {
   color: var(--global-text-color, $dark-gray);
-  border-bottom: 2px solid var(--global-text-color, $dark-gray);
+  border-bottom: $masthead-active-underline solid var(--global-text-color, $dark-gray);
 }
 
 /*
