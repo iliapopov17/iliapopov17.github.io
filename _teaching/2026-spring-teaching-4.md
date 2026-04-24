@@ -1,5 +1,5 @@
 ---
-title: "Comparative Genomics of **Streptomyces albidoflavus**"
+title: "Comparative Genomics of <i>Streptomyces albidoflavus</i>"
 collection: teaching
 type: "Workshop"
 permalink: /teaching/2026-spring-teaching-4
