@@ -25,13 +25,13 @@
     <h2 class="archive__item-title" itemprop="headline">{{ title }}</h2>
     
     {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta"><i class="fa fa-calendar-alt" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     
     {% if post.date or post.venue or post.location %}
       <p class="page__meta">
         {% if post.date %}
-          <i class="fa fa-clock" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+          <i class="fa fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
         {% endif %}
         {% if post.date and (post.venue or post.location) %}
           &nbsp;&nbsp;

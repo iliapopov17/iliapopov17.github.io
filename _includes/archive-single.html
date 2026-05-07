@@ -39,7 +39,7 @@
     </h2>
 
     {% if post.read_time and post.collection == 'posts' %}
-      <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+      <p class="page__meta"><i class="fa fa-calendar-alt" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
     {% if post.collection == 'teaching' %}
@@ -50,7 +50,7 @@
             &nbsp;&nbsp;
           {% endif %}
           {% if post.from and post.to or post.location %}
-            <i class="fa fa-clock" aria-hidden="true"></i>
+            <i class="fa fa-calendar-alt" aria-hidden="true"></i>
             {% if post.from == post.to %}
               {{ post.from | date: '%B %d, %Y' }}
             {% else %}
@@ -88,7 +88,7 @@
     {% elsif post.collection == 'research' %}
       {% if post.from and post.to or post.venue %}
         <p class="page__meta">
-          <i class="fa fa-clock" aria-hidden="true"></i>
+          <i class="fa fa-calendar-alt" aria-hidden="true"></i>
           {% if post.from == post.to %}
             {{ post.from | date: '%B, %Y' }}
           {% else %}
