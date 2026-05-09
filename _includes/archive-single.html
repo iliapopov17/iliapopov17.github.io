@@ -78,10 +78,22 @@
       <p>
         <strong>About</strong>: {{ post.about }}<br>
         <strong>Status</strong>: {{ post.status }}<br>
-        {{ post.doi | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
-        {{ post.downloads | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
-        {{ post.version | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
-        {{ post.stars | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
+        {% if post.doi %}
+          {% assign doi_encoded = post.doi | replace: '/', '%2F' | replace: '-', '--' %}
+          <a href="https://doi.org/{{ post.doi }}"><img src="https://img.shields.io/badge/DOI-{{ doi_encoded }}-blue" alt="DOI"></a>
+        {% endif %}
+        {% if post.downloads %}
+          {% assign pepy_pkg = post.downloads | split: '/projects/' | last %}
+          <a href="{{ post.downloads }}"><img src="https://img.shields.io/pepy/dt/{{ pepy_pkg }}?style=flat&logoColor=white&label=Downloads&color=blue" alt="Downloads"></a>
+        {% endif %}
+        {% if post.version %}
+          {% assign pypi_pkg = post.version | split: '/project/' | last | remove: '/' %}
+          <a href="{{ post.version }}"><img src="https://img.shields.io/pypi/v/{{ pypi_pkg }}?label=PyPI&color=green" alt="PyPI version"></a>
+        {% endif %}
+        {% if post.stars %}
+          {% assign gh_repo = post.stars | split: 'github.com/' | last | split: '/stargazers' | first %}
+          <a href="{{ post.stars }}"><img src="https://img.shields.io/github/stars/{{ gh_repo }}" alt="GitHub stars"></a>
+        {% endif %}<br>
         {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
       </p>
 
@@ -125,7 +137,10 @@
               <i class="fa fa-book" aria-hidden="true"></i> <i>{{ post.journal }}</i>,
               {{ post.year }}
             </span><br>
-            {{ post.doi | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+            {% if post.doi %}
+              {% assign doi_encoded = post.doi | replace: '/', '%2F' | replace: '-', '--' %}
+              <a href="https://doi.org/{{ post.doi }}"><img src="https://img.shields.io/badge/DOI-{{ doi_encoded }}-blue" alt="DOI"></a>
+            {% endif %}
           </p>
         {% endif %}
 
