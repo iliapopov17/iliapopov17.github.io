@@ -6,7 +6,7 @@
     position: fixed;
     background: var(--global-bg-color, white);
     color: var(--global-text-color, $dark-gray);
-    border-bottom: 1px solid $border-color;
+    border-bottom: 1px solid $header-color;
     height: $masthead-height;
     top: 0;
     width: 100%;

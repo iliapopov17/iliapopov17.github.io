@@ -66,19 +66,6 @@
   letter-spacing: -0.01em;
 }
 
-/* --- Keyword highlighting (IDE-like) --- */
-.admonition .kw {
-  padding: 0 0.3em;
-  border-radius: 3px;
-  background-color: rgba(68, 138, 255, 0.12);
-  color: #2979ab;
-  font-weight: 500;
-  white-space: nowrap;
-}
-
-.admonition .kw:hover {
-  background-color: rgba(68, 138, 255, 0.24);
-}
 
 /* ================================================================
    Variants

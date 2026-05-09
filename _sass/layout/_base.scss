@@ -151,20 +151,25 @@
   li > code,
   figcaption > code,
   td > code {
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+    padding: 0 0.3em;
     font-size: $type-size-6;
-    background: $code-background-color;
-    border: 1px solid $lighter-gray;
-    border-radius: $border-radius;
-    box-shadow: $box-shadow;
-  
-    &:before, &:after {
-      letter-spacing: -0.2em;
-      content: "\00a0"; /* non-breaking space*/
+    border-radius: 3px;
+    background-color: rgba(68, 138, 255, 0.12);
+    color: #2979ab;
+    font-weight: 500;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: rgba(68, 138, 255, 0.24);
     }
   }
   
+  /* font awesome icons inside links */
+
+  a i[class*="fa"] {
+    margin-right: 0.3em;
+  }
+
   /* horizontal rule */
   
   hr {
