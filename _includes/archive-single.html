@@ -90,6 +90,10 @@
           {% assign pypi_pkg = post.version | split: '/project/' | last | remove: '/' %}
           <a href="{{ post.version }}"><img src="https://img.shields.io/pypi/v/{{ pypi_pkg }}?label=PyPI&color=green" alt="PyPI version"></a>
         {% endif %}
+        {% if post.codecov %}
+          {% assign gh_repo = post.codecov %}
+          <a href="{{ post.codecov }}"><img src="{{ gh_repo }}/graph/badge.svg" alt="Code Coverage"></a>
+        {% endif %}
         {% if post.stars %}
           {% assign gh_repo = post.stars | split: 'github.com/' | last | split: '/stargazers' | first %}
           <a href="{{ post.stars }}"><img src="https://img.shields.io/github/stars/{{ gh_repo }}" alt="GitHub stars"></a>

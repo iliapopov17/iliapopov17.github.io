@@ -6,6 +6,7 @@ status: "Released"
 downloads: "https://pepy.tech/projects/krakenparser"
 version: "https://pypi.org/project/krakenparser/"
 stars: "https://github.com/PopovIILab/KrakenParser/stargazers"
+codecov: "https://codecov.io/gh/PopovIILab/KrakenParser"
 logo: "<img src='/images/tools/krakenparser.png' width='500px'>"
 external_url: https://github.com/PopovIILab/KrakenParser
 ---
