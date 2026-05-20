@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About Me"
+title                    : "Ilya Popov"
+masthead_title           : "About Me"
 title_separator          : "-"
 name                     : &name "Ilya Popov"
 description              : &description "personal description"
