@@ -37,7 +37,7 @@ author:
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0001-7947-1654"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "https://www.researchgate.net/profile/Ilia-Popov-2"
+  researchgate     : # "https://www.researchgate.net/profile/Ilia-Popov-2"
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
