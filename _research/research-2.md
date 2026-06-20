@@ -6,5 +6,5 @@ to: 2024-05-01
 info: Research Project
 venue: "Bioinformatics Institute"
 logo: "<img src='/images/research/HIV_shadow.png' width='500px'>"
-external_url: https://github.com/iliapopov17/The-shadow-of-HIV
+external_url: https://github.com/ilypopv/The-shadow-of-HIV
 ---

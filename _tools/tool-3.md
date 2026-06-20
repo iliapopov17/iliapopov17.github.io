@@ -6,5 +6,5 @@ status: "Released"
 downloads: "https://pepy.tech/projects/phyloki"
 version: "https://pypi.org/project/phyloki/"
 logo: "<img src='/images/tools/phyloki.png' width='500px'>"
-external_url: https://github.com/iliapopov17/phyloki
+external_url: https://github.com/ilypopv/phyloki
 ---
