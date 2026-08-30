@@ -28,6 +28,7 @@
 
   /* Surfaces */
   --global-bg-color            : #{$background-color-lit};
+  --masthead-bg-color          : rgba(255, 255, 255, 0.75);
   --color-surface              : #{$code-background-color-lit};
   --color-surface-alt          : #{$light-gray-lit};
   --footer-bg-color            : #{$lighter-gray-lit};
@@ -120,6 +121,7 @@
 
   /* Surfaces */
   --global-bg-color            : #161a1d;
+  --masthead-bg-color          : rgba(22, 26, 29, 0.75);
   --color-surface              : #202428;
   --color-surface-alt          : #2a2f34;
   --footer-bg-color            : #1e2124;
