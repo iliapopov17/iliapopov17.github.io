@@ -64,10 +64,15 @@ body:hover .visually-hidden button {
   font-size: 1em;
   font-weight: bold;
   padding: 15px 23px 14px;
-  background: #fff;
+  background: var(--color-skiplink-bg);
+  /* This rule declared a background but never a colour, so the skip link
+     inherited body text. That worked by luck on a white page and breaks the
+     moment the page is dark — an accessibility affordance going illegible for
+     exactly the keyboard users it exists for. Now explicit. */
+  color: var(--color-skiplink-text);
   z-index: 100000;
   text-decoration: none;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
+  box-shadow: var(--shadow-focus);
 }
 
 
@@ -219,8 +224,11 @@ body:hover .visually-hidden button {
 /* social icons*/
 
 .social-icons {
+  /* Catch-all for icons with no brand colour below. On this site that is the
+     live map-marker pair (location, employer) in the author sidebar, which
+     would otherwise be black-on-black. */
   .fa {
-    color: #000;
+    color: var(--social-default);
   }
 
   .fa-behance,
@@ -245,10 +253,13 @@ body:hover .visually-hidden button {
     color: $foursquare-color;
   }
 
+  /* GitHub's brand black (#171516) lands at 1.09:1 on the dark background —
+     invisible — and this icon is on every page. The other brand colours below
+     are dormant on this site and stay literal. */
   .fa-github,
   .fa-github-alt,
   .fa-github-square {
-    color: $github-color;
+    color: var(--social-github);
   }
   
   .fa-gitlab {
@@ -420,8 +431,8 @@ body:hover .visually-hidden button {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e3e3e3;
+  background-color: var(--color-well-bg);
+  border: 1px solid var(--color-well-border);
   border-radius: $border-radius;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
@@ -443,7 +454,7 @@ body:hover .visually-hidden button {
     width: 100%;
     height: 100%;
     z-index: 999;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: var(--color-scrim);
   }
 
   .modal {
@@ -461,7 +472,7 @@ body:hover .visually-hidden button {
   margin-top: -150px;
   min-height: 0;
   z-index: 9999;
-  background: #fff;
+  background: var(--color-popup-bg);
   border: 1px solid $border-color;
   border-radius: $border-radius;
   box-shadow: $box-shadow;
@@ -492,7 +503,7 @@ body:hover .visually-hidden button {
 }
 
 .footnotes {
-  color: mix(#fff, $gray, 25%);
+  color: var(--color-text-faint);
 
   ol, li, p {
     margin-bottom: 0;
