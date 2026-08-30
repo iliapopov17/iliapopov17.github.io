@@ -13,6 +13,7 @@
 @import
   "vendor/breakpoint/breakpoint", // media query mixins
   "layout/variables",
+  "layout/theme",         // light/dark tokens + toggle; must follow variables
   "include/mixins",
   "vendor/susy/susy",
   "layout/reset",
