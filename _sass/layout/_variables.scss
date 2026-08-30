@@ -67,21 +67,32 @@ $sidebar-link-max-width     : 250px;
    Colors
    ========================================================================== */
 
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* --------------------------------------------------------------------------
+   Build-time palette (`*-lit`)
+   --------------------------------------------------------------------------
+   Real Sass colours. These are the light-mode source of truth and the only
+   colours you may pass to mix() / rgba() / lighten(), which all run at build
+   time and cannot see a CSS custom property.
 
-$body-color                 : #fff;
-$background-color           : #fff;
-$code-background-color      : #fafafa;
-$code-background-color-dark : $light-gray;
-$text-color                 : #111;
-$border-color               : $lighter-gray;
-$header-color               : mix(#fff, $gray, 75%);
+   _sass/layout/_theme.scss interpolates these into the light token block, so
+   light mode compiles to exactly the same hex it always did.
+   -------------------------------------------------------------------------- */
 
-$primary-color              : #7a8288;
+$gray-lit                   : #7a8288;
+$dark-gray-lit              : mix(#000, $gray-lit, 40%);
+$darker-gray-lit            : mix(#000, $gray-lit, 60%);
+$light-gray-lit             : mix(#fff, $gray-lit, 50%);
+$lighter-gray-lit           : mix(#fff, $gray-lit, 90%);
+
+$background-color-lit       : #fff;
+$code-background-color-lit  : #fafafa;
+$text-color-lit             : #111;
+$border-color-lit           : $lighter-gray-lit;
+$header-color-lit           : mix(#fff, $gray-lit, 75%);
+$primary-color-lit          : #7a8288;
+
+/* Semantic colours stay literal: they are near-identical in both themes and
+   several are consumed by mix() in _buttons.scss / _notices.scss. */
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
@@ -93,7 +104,8 @@ $dribbble-color             : #ea4c89;
 $facebook-color             : #3b5998;
 $flickr-color               : #ff0084;
 $foursquare-color           : #0072b1;
-$github-color               : #171516;
+$github-color-lit           : #171516;
+$github-color               : $github-color-lit;
 $gitlab-color               : #FCA121;
 $google-plus-color          : #dd4b39;
 $instagram-color            : #517fa4;
@@ -113,13 +125,51 @@ $youtube-color              : #bb0000;
 $xing-color                 : #006567;
 
 
-/* links */
-$link-color                 : $info-color;
-$link-color-hover           : mix(#000, $link-color, 25%);
-$link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#fff, $link-color, 25%);
+/* links (build-time) */
+$link-color-lit             : $info-color;
+$link-color-hover-lit       : mix(#000, $link-color-lit, 25%);
+$link-color-visited-lit     : mix(#fff, $link-color-lit, 25%);
+
 $masthead-active-underline  : 2px;
+
+
+/* --------------------------------------------------------------------------
+   Runtime palette (themed)
+   --------------------------------------------------------------------------
+   Each of these is a CSS custom property, resolved by the browser. That is
+   what makes `color: $text-color` — repeated ~100 times across the partials —
+   retheme without a single per-site edit.
+
+   Values live in _sass/layout/_theme.scss, nowhere else.
+
+   These CANNOT be passed to mix() / rgba() / lighten() / darken(): those are
+   build-time functions and a custom property is an opaque token to them.
+   Sass will refuse to compile, which is the point — it turns "this colour
+   silently stayed light" into a build failure. Reach for the `*-lit` twin
+   above, or add a token in _theme.scss.
+   -------------------------------------------------------------------------- */
+
+$gray                       : var(--color-gray);
+$dark-gray                  : var(--color-dark-gray);
+$darker-gray                : var(--color-darker-gray);
+$light-gray                 : var(--color-light-gray);
+$lighter-gray               : var(--color-lighter-gray);
+
+$body-color                 : var(--global-bg-color);
+$background-color           : var(--global-bg-color);
+$code-background-color      : var(--color-surface);
+$code-background-color-dark : var(--color-surface-alt);
+$text-color                 : var(--color-text);
+$border-color               : var(--color-border);
+$header-color               : var(--color-header);
+
+$primary-color              : var(--color-primary);
+
+$link-color                 : var(--color-link);
+$link-color-hover           : var(--color-link-hover);
+$link-color-visited         : var(--color-link-visited);
+$masthead-link-color        : var(--masthead-link-color);
+$masthead-link-color-hover  : var(--masthead-link-color-hover);
 
 
 /*
@@ -172,7 +222,7 @@ $susy: (
    ========================================================================== */
 
 $border-radius              : 4px;
-$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$box-shadow                 : var(--global-box-shadow);
 $navicon-width              : 28px;
 $navicon-height             : 4px;
 $global-transition          : all 0.2s ease-in-out;
