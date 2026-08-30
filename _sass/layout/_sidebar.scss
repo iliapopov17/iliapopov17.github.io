@@ -197,9 +197,9 @@ html.no-vscroll {
     list-style-type: none;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
+    background: var(--color-popup-bg);
     z-index: 9;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
+    box-shadow: var(--shadow-popup);
     cursor: default;
   
     @include breakpoint($large) {
@@ -238,7 +238,8 @@ html.no-vscroll {
       width: 0;
       border-style: solid;
       border-width: 0 10px 10px;
-      border-color: #fff transparent;
+      /* Inner half of the arrow — must track the panel fill, see above. */
+      border-color: var(--color-popup-bg) transparent;
       z-index: 1;
   
       @include breakpoint($large) {
@@ -262,7 +263,7 @@ html.no-vscroll {
   
       &:hover {
         text-decoration: underline;
-        background-color: rgba(68, 138, 255, 0.09);
+        background-color: var(--color-sidebar-hover-bg);
         border-radius: 3px;
       }
     }
