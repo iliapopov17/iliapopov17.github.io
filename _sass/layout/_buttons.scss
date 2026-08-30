@@ -47,11 +47,15 @@
 
   /* for dark backgrounds */
 
+  /* This is the live one: the "Follow" button in the author sidebar. Its
+     hardcoded white fill made it a bright chip on a dark page. */
   &--inverse {
     color: $gray !important;
     border: 1px solid $light-gray !important; /* override*/
-    background-color: #fff;
+    background-color: var(--global-bg-color);
 
+    /* `.btn:hover` above forces the fill to a hardcoded #333 in both themes,
+       so white hover text stays correct here. Do not "theme" it. */
     &:hover {
       color: #fff !important;
       border-color: $gray;
@@ -171,7 +175,7 @@
     cursor: pointer;
 
     &:hover {
-      color: #fff;
+      color: var(--global-bg-color);
       background-color: $link-color !important;
     }
   }
