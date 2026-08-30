@@ -12,6 +12,15 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<!-- Theme, applied before the stylesheet is even requested so there is no
+     flash of the wrong palette. Kept in sync with assets/js/theme-toggle.js.
+     Written with no multi-space runs and a semicolon after every statement:
+     _layouts/compress.html collapses whitespace in production only, so a bug
+     of that kind would never show up in a local serve. -->
+<script>
+(function(){var d=document.documentElement,c='system';try{var s=localStorage.getItem('theme-choice');if(s==='light'||s==='dark'){c=s;}}catch(e){}d.setAttribute('data-theme-choice',c);if(c!=='system'){d.setAttribute('data-theme',c);}})();
+</script>
+
 <!-- Google Fonts: IBM Plex Mono (global) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
