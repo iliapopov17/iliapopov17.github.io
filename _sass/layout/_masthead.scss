@@ -4,7 +4,9 @@
 
    .masthead {
     position: fixed;
-    background: var(--global-bg-color, white);
+    background: var(--masthead-bg-color, var(--global-bg-color, white));
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
     color: var(--global-text-color, $dark-gray);
     border-bottom: 1px solid $header-color;
     height: $masthead-height;
