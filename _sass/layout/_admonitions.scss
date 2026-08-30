@@ -9,10 +9,10 @@
 
 .admonition {
   margin: 1.5em 0;
-  border: 1.5px solid #2979ab;
+  border: 1.5px solid var(--color-admonition-border);
   border-radius: 4px;
-  background-color: #fdfefe;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12);
+  background-color: var(--color-admonition-bg);
+  box-shadow: var(--shadow-admonition);
   overflow: hidden;
   font-size: 0.75rem;
   line-height: 1.45;
@@ -27,7 +27,7 @@
   padding: 0.5em 0.75em;
   font-weight: 600;
   letter-spacing: 0.01em;
-  background-color: rgba(68, 138, 255, 0.12);
+  background-color: var(--color-admonition-title-bg);
 }
 
 /* --- Icon --- */
@@ -36,7 +36,7 @@
   flex-shrink: 0;
   width: 1.25em;
   height: 1.25em;
-  background-color: #2979ab;
+  background-color: var(--color-admonition-icon);
 
   /* Pencil-circle icon (Material-like, inline SVG mask) */
   -webkit-mask: url("data:image/svg+xml;utf8,\
@@ -72,9 +72,9 @@
    ================================================================ */
 
 .admonition.note {
-  border-color: #448aff;
+  border-color: var(--color-admonition-note);
 }
 
 .admonition.note .admonition-title {
-  background-color: rgba(68, 138, 255, 0.12);
+  background-color: var(--color-admonition-title-bg);
 }
