@@ -64,14 +64,18 @@
 
 /* Default notice */
 
+/* These pass the build-time `*-lit` colours, not the themed tokens: the
+   notice() mixin runs them through mix() and rgba(). Notices are dormant on
+   this site (the only `.notice--danger` is inside an IE<9 conditional
+   comment), so they stay light-only rather than earning six more tokens. */
 .notice {
-  @include notice($light-gray);
+  @include notice($light-gray-lit);
 }
 
 /* Primary notice */
 
 .notice--primary {
-  @include notice($primary-color);
+  @include notice($primary-color-lit);
 }
 
 /* Info notice */
