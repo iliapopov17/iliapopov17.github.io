@@ -160,6 +160,10 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - CLAUDE
+  - CLAUDE.md
+  - DARK
+  - DARK.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
