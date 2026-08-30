@@ -98,7 +98,7 @@
           {% assign gh_repo = post.stars | split: 'github.com/' | last | split: '/stargazers' | first %}
           <a href="{{ post.stars }}"><img src="https://img.shields.io/github/stars/{{ gh_repo }}" alt="GitHub stars"></a>
         {% endif %}<br>
-        {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+        <span class="item__logo">{{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}</span>
       </p>
 
     {% elsif post.collection == 'research' %}
@@ -120,7 +120,7 @@
       {% endif %}
 
       {{ post.info | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}<br>
-      {{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}
+      <span class="item__logo">{{ post.logo | markdownify | strip_newlines | remove: '<p>' | remove: '</p>' }}</span>
 
     {% elsif post.collection == 'publications' %}
       {% if post.abstract %}
