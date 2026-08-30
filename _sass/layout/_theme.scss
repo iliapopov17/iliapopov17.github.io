@@ -345,6 +345,11 @@
    there and light output is unchanged.
    ========================================================================== */
 
+.item__logo {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
 .item__logo img,
 .page__content figure img,
 .page__content p > img:only-child {
