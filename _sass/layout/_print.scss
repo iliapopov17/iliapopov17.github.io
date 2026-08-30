@@ -15,4 +15,17 @@
   .page__footer {
     display: none;
   }
+
+  /* Force the light palette on paper. Without this, a reader printing while
+     in dark mode gets a page of light text on a background the printer either
+     floods with ink or drops entirely, leaving near-white text on white.
+
+     All three selectors are listed so this outranks `:root[data-theme="dark"]`
+     — an attribute selector, so plain `:root` alone would lose on specificity.
+     This partial is imported last, which settles the same-specificity tie. */
+  :root,
+  :root[data-theme="light"],
+  :root[data-theme="dark"] {
+    @include theme-light;
+  }
 }
