@@ -1,0 +1,354 @@
+/* ==========================================================================
+   THEME TOKENS  (light / dark)
+   ==========================================================================
+
+   How this works
+   --------------
+   `_variables.scss` keeps two parallel sets of colour variables:
+
+     $gray-lit  = #7a8288          <- a real Sass colour, safe inside mix()
+     $gray      = var(--color-gray) <- a runtime token, retheme-able
+
+   The partials consume the `$gray` form, so ~100 declarations across the
+   theme retheme with no per-site edit. This file is the only place the
+   actual values live.
+
+   The light block interpolates the *-lit variables (`\#{...}`), so Sass emits
+   exactly the same hex it emits today -> light mode is unchanged.
+
+   Adding a colour? Add a token here. Do NOT reintroduce a literal into a
+   partial, and do NOT pass a `$themed` variable to mix()/rgba()/lighten() —
+   those run at build time and cannot see a custom property. That is a
+   compile error, which is deliberate: it is the tripwire that stops a
+   hardcoded colour from silently shipping.
+   ========================================================================== */
+
+@mixin theme-light {
+  color-scheme: light;
+
+  /* Surfaces */
+  --global-bg-color            : #{$background-color-lit};
+  --color-surface              : #{$code-background-color-lit};
+  --color-surface-alt          : #{$light-gray-lit};
+  --footer-bg-color            : #{$lighter-gray-lit};
+  --color-popup-bg             : #fff;
+  --color-well-bg              : #f5f5f5;
+  --color-well-border          : #e3e3e3;
+  --color-scrim                : rgba(255, 255, 255, 0.85);
+
+  /* Gray ramp */
+  --color-gray                 : #{$gray-lit};
+  --color-dark-gray            : #{$dark-gray-lit};
+  --color-darker-gray          : #{$darker-gray-lit};
+  --color-light-gray           : #{$light-gray-lit};
+  --color-lighter-gray         : #{$lighter-gray-lit};
+
+  /* Text */
+  --color-text                 : #{$text-color-lit};
+  --color-text-soft            : #{mix(#fff, $text-color-lit, 25%)};
+  --color-text-faint           : #{mix(#fff, $gray-lit, 25%)};
+  --color-text-mid             : #{mix(#fff, $gray-lit, 50%)};
+  --color-text-disabled        : #{mix(#fff, $gray-lit, 75%)};
+  --color-text-strong          : #000;
+
+  /* Lines */
+  --color-border               : #{$border-color-lit};
+  --color-header               : #{$header-color-lit};
+  --color-divider              : #888;
+
+  /* Links */
+  --color-link                 : #{$link-color-lit};
+  --color-link-hover           : #{$link-color-hover-lit};
+  --color-link-visited         : #{$link-color-visited-lit};
+  --masthead-link-color        : #{$primary-color-lit};
+  --masthead-link-color-hover  : #{mix(#fff, $link-color-lit, 25%)};
+
+  /* Primary */
+  --color-primary              : #{$primary-color-lit};
+  --color-primary-tint         : #{mix(#fff, $primary-color-lit, 75%)};
+  --color-blockquote-border    : #{$primary-color-lit};
+
+  /* Inline code */
+  --color-code-bg              : rgba(68, 138, 255, 0.12);
+  --color-code-bg-hover        : rgba(68, 138, 255, 0.24);
+  --color-code-text            : #2979ab;
+
+  /* Admonitions */
+  --color-admonition-bg        : #fdfefe;
+  --color-admonition-border    : #2979ab;
+  --color-admonition-title-bg  : rgba(68, 138, 255, 0.12);
+  --color-admonition-icon      : #2979ab;
+  --color-admonition-note      : #448aff;
+
+  /* Sidebar author links */
+  --color-sidebar-hover-bg     : rgba(68, 138, 255, 0.09);
+
+  /* Selection */
+  --selection-bg               : #000;
+  --selection-text             : #fff;
+
+  /* Shadows */
+  --global-box-shadow          : 0 1px 1px rgba(0, 0, 0, 0.125);
+  --shadow-popup               : 0 0 10px rgba(0, 0, 0, 0.25);
+  --shadow-card                : 0 4px 12px rgba(0, 0, 0, 0.12);
+  --shadow-admonition          : 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-focus               : 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  --shadow-hero-text           : 1px 1px 4px rgba(0, 0, 0, 0.5);
+
+  /* Social icons — only the ones that actually render on this site are
+     retokenised; the rest stay literal brand hex in _utilities.scss. */
+  --social-default             : #000;
+  --social-github              : #{$github-color-lit};
+
+  /* Skip link (had no `color` at all before — inherited #111, so this is
+     the same value, now explicit and themeable) */
+  --color-skiplink-bg          : #fff;
+  --color-skiplink-text        : #{$text-color-lit};
+
+  /* Figure backdrop. Every figure on this site is authored for a white
+     page: 5 have baked-in white boxes, and 4 are transparent PNGs with
+     dark ink that would vanish outright on a dark page. So in dark mode
+     figures sit on their own light card, pixel-for-pixel as drawn.
+     Inverting or hue-rotating them would falsify the data. */
+  --figure-card-bg             : transparent;
+  --figure-card-pad            : 0;
+  --figure-card-radius         : 0;
+}
+
+@mixin theme-dark {
+  color-scheme: dark;
+
+  /* Surfaces */
+  --global-bg-color            : #161a1d;
+  --color-surface              : #202428;
+  --color-surface-alt          : #2a2f34;
+  --footer-bg-color            : #1e2124;
+  --color-popup-bg             : #23282c;
+  --color-well-bg              : #202428;
+  --color-well-border          : #373e43;
+  --color-scrim                : rgba(10, 12, 14, 0.85);
+
+  /* Gray ramp — inverted. In light, "darker" means more contrast against a
+     white page; in dark, more contrast means lighter. So the ramp flips
+     end-for-end rather than being nudged, or every `color: $dark-gray`
+     would read as low-contrast mud. */
+  --color-gray                 : #a1a9af;
+  --color-dark-gray            : #c3cad0;
+  --color-darker-gray          : #dde2e6;
+  --color-light-gray           : #6b757c;
+  --color-lighter-gray         : #373e43;
+
+  /* Text */
+  --color-text                 : #e8ebee;  /* 14.63:1 on --global-bg-color */
+  --color-text-soft            : #b9c0c6;  /*  9.28:1 */
+  --color-text-faint           : #949ca3;  /*  5.98:1 */
+  --color-text-mid             : #8a939a;  /*  5.26:1 */
+  --color-text-disabled        : #6b757c;  /*  3.24:1 — non-text/disabled only */
+  --color-text-strong          : #fff;
+
+  /* Lines */
+  --color-border               : #373e43;
+  --color-header               : #2e353a;
+  --color-divider              : #5a6469;
+
+  /* Links */
+  --color-link                 : #6cafe0;  /*  7.37:1 on page, 6.58:1 on surface */
+  --color-link-hover           : #9acbee;
+  --color-link-visited         : #a9c9e2;
+  --masthead-link-color        : #b4bcc2;  /*  9.74:1 */
+  --masthead-link-color-hover  : #6cafe0;
+
+  /* Primary. Kept dark enough that the hardcoded `color: #fff` on .btn and
+     the greedy-nav button still clears AA (5.4:1). */
+  --color-primary              : #5c666d;
+  --color-primary-tint         : #333a40;
+  --color-blockquote-border    : #8b949b;
+
+  /* Inline code */
+  --color-code-bg              : rgba(108, 175, 224, 0.16);
+  --color-code-bg-hover        : rgba(108, 175, 224, 0.28);
+  --color-code-text            : #8cc3ea;
+
+  /* Admonitions */
+  --color-admonition-bg        : #1c2226;
+  --color-admonition-border    : #4a90c4;
+  --color-admonition-title-bg  : rgba(108, 175, 224, 0.14);
+  --color-admonition-icon      : #6cafe0;
+  --color-admonition-note      : #5b93e8;
+
+  /* Sidebar author links */
+  --color-sidebar-hover-bg     : rgba(108, 175, 224, 0.12);
+
+  /* Selection */
+  --selection-bg               : #274d68;
+  --selection-text             : #fff;
+
+  /* Shadows — a 12.5%-black shadow is invisible on a dark surface, so these
+     deepen rather than carry over. */
+  --global-box-shadow          : 0 1px 1px rgba(0, 0, 0, 0.5);
+  --shadow-popup               : 0 0 10px rgba(0, 0, 0, 0.6);
+  --shadow-card                : 0 4px 12px rgba(0, 0, 0, 0.5);
+  --shadow-admonition          : 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-focus               : 0 0 2px 2px rgba(0, 0, 0, 0.8);
+  --shadow-hero-text           : 1px 1px 4px rgba(0, 0, 0, 0.7);
+
+  /* GitHub's brand black is #171516 — 1.09:1 on this background, i.e.
+     invisible. It renders in the author sidebar on every page. */
+  --social-default             : #c2c7cb;
+  --social-github              : #c2c7cb;
+
+  --color-skiplink-bg          : #23282c;
+  --color-skiplink-text        : #e8ebee;
+
+  --figure-card-bg             : #eef0f1;
+  --figure-card-pad            : 0.75em;
+  --figure-card-radius         : #{$border-radius};
+}
+
+/* --------------------------------------------------------------------------
+   Resolution order
+   --------------------------------------------------------------------------
+   1. `:root` is light — the floor, and what no-CSS-custom-property and
+      print get.
+   2. System dark applies only when the reader has NOT pinned light. The
+      `:not([data-theme="light"])` is what makes an explicit light choice
+      survive a dark OS.
+   3. An explicit dark choice wins unconditionally, including on a light OS.
+      Higher specificity than (2) and later in source order.
+   -------------------------------------------------------------------------- */
+
+:root {
+  @include theme-light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include theme-dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include theme-dark;
+}
+
+
+/* ==========================================================================
+   THEME TOGGLE
+   ==========================================================================
+   One button, three states, cycling system -> light -> dark -> system.
+
+   It lives in .masthead__inner-wrap as a sibling of .masthead__menu, NOT
+   inside #site-nav. jquery.greedy-navigation.js binds
+   `$btn = $('#site-nav button')`; a second button in that subtree would join
+   that set, corrupt the `$nav.width() - $btn.width()` overflow arithmetic,
+   and pick up the dropdown click handler.
+
+   Space is reserved with padding on the wrap rather than a float, because
+   .masthead__menu is not a block formatting context and `.masthead__menu ul`
+   sets `clear: both` — a float here would drop the nav onto a second line.
+   ========================================================================== */
+
+.masthead__inner-wrap {
+  position: relative;
+}
+
+.js .masthead__inner-wrap {
+  padding-right: calc(1em + 44px);
+}
+
+.theme-toggle {
+  /* Hidden without JS, where it could not do anything anyway. */
+  display: none;
+}
+
+.js .theme-toggle {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 1em;
+  z-index: 11;
+  width: 44px;
+  height: calc(#{$masthead-height} - 2px);
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: $border-radius;
+  /* Matches the nav links, which resolve through `.masthead__inner-wrap a`
+     (0,2,1) rather than `.greedy-nav a` (0,1,1) — so --color-dark-gray, not
+     --masthead-link-color, is what the reader actually sees up there. */
+  color: var(--color-dark-gray);
+  cursor: pointer;
+  -webkit-appearance: none;
+          appearance: none;
+  -webkit-transition: $global-transition;
+          transition: $global-transition;
+}
+
+.theme-toggle:hover {
+  color: var(--color-link);
+  background: var(--color-primary-tint);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--color-link);
+  outline-offset: -2px;
+}
+
+.theme-toggle svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Exactly one glyph shows, reflecting the current choice. Before JS runs
+   there is no data-theme-choice, and "auto" is the correct default. */
+.theme-toggle__icon {
+  display: none;
+}
+
+.theme-toggle__icon--auto,
+[data-theme-choice="system"] .theme-toggle__icon--auto {
+  display: block;
+}
+
+[data-theme-choice="light"] .theme-toggle__icon--auto,
+[data-theme-choice="dark"] .theme-toggle__icon--auto {
+  display: none;
+}
+
+[data-theme-choice="light"] .theme-toggle__icon--light,
+[data-theme-choice="dark"] .theme-toggle__icon--dark {
+  display: block;
+}
+
+
+/* ==========================================================================
+   FIGURE CARDS
+   ==========================================================================
+   See --figure-card-bg above for why. `p > img:only-child` targets a
+   markdown image that is a paragraph on its own — a real figure — while
+   leaving the inline shields.io/pepy/codecov badges alone, since those sit
+   in a <p> alongside their siblings.
+
+   All three properties are 0/transparent in light, so this rule is inert
+   there and light output is unchanged.
+   ========================================================================== */
+
+.item__logo img,
+.page__content figure img,
+.page__content p > img:only-child {
+  background-color: var(--figure-card-bg);
+  padding: var(--figure-card-pad);
+  border-radius: var(--figure-card-radius);
+}
