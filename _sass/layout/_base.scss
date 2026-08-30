@@ -111,7 +111,7 @@
     padding-left: 1em;
     padding-right: 1em;
     font-style: italic;
-    border-left: 0.25em solid $primary-color;
+    border-left: 0.25em solid var(--color-blockquote-border);
   
     cite {
       font-style: italic;
@@ -154,13 +154,13 @@
     padding: 0 0.3em;
     font-size: $type-size-6;
     border-radius: 3px;
-    background-color: rgba(68, 138, 255, 0.12);
-    color: #2979ab;
+    background-color: var(--color-code-bg);
+    color: var(--color-code-text);
     font-weight: 500;
     white-space: nowrap;
 
     &:hover {
-      background-color: rgba(68, 138, 255, 0.24);
+      background-color: var(--color-code-bg-hover);
     }
   }
   
@@ -255,7 +255,7 @@
   
   figcaption {
     margin-bottom: 0.5em;
-    color: mix(#fff, $text-color, 25%);
+    color: var(--color-text-soft);
     font-family: $caption-font-family;
     font-size: $type-size-6;
   
@@ -267,8 +267,8 @@
       transition: $global-transition;
   
       &:hover {
-        color: #000;
-        border-bottom-color: #000;
+        color: var(--color-text-strong);
+        border-bottom-color: var(--color-text-strong);
       }
     }
   }
