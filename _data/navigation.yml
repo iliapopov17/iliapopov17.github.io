@@ -12,11 +12,11 @@ main:
   - title: "Research"
     url: /research/
   
-  - title: "Tools"
+  - title: "Software"
     url: /tools/
         
-  - title: "Certificates"
-    url: /certificates/
+  #- title: "Certificates"
+    #url: /certificates/
     
   - title: "CV"
     url: /cv/
