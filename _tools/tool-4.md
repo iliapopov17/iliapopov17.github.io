@@ -1,13 +1,12 @@
 ---
-title: "KEGGaNOG"
+title: "KrakenParser"
 collection: tools
-about: "Tool for generating KEGG heatmaps from eggNOG-mapper annotations"
-status: "Released & Published"
-doi: "10.1002/mnfr.70269"
-downloads: "https://pepy.tech/projects/kegganog"
-version: "https://pypi.org/project/kegganog/"
-stars: "https://github.com/ilypopv/KEGGaNOG/stargazers"
-codecov: "https://codecov.io/gh/ilypopv/KEGGaNOG"
-logo: "<img src='/images/tools/kegganog.png' width='500px'>"
-external_url: https://github.com/ilypopv/KEGGaNOG
+about: "Tool to process Kraken2 reports and convert them into CSV format"
+status: "Released"
+downloads: "https://pepy.tech/projects/krakenparser"
+version: "https://pypi.org/project/krakenparser/"
+stars: "https://github.com/PopovIILab/KrakenParser/stargazers"
+codecov: "https://codecov.io/gh/PopovIILab/KrakenParser"
+logo: "<img src='/images/tools/krakenparser.png' width='500px'>"
+external_url: https://github.com/PopovIILab/KrakenParser
 ---
