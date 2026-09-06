@@ -164,6 +164,8 @@ exclude:
   - CLAUDE.md
   - DARK
   - DARK.md
+  - AGENTS
+  - AGENTS.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
