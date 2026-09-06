@@ -2,10 +2,18 @@
 
 <!-- start custom head snippets -->
 
-<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=20201130">
-<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=20201130" color="#000000">
-<link rel="shortcut icon" href="/images/favicon.ico?v=20201130">
-<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=20201130">
+<!-- Favicons + scoped manifest. Mitigates same-origin collision with
+     https://ilypopv.github.io/NGS-Handbook (separate repo, same origin
+     `ilypopv.github.io` — see AGENTS.md). Browsers cache favicons per-origin;
+     explicit icons + manifest `scope` improve bookmark hit-rate for `/` vs
+     `/NGS-Handbook/` but cannot fully isolate without a custom domain. -->
+<link rel="shortcut icon" href="{{ base_path }}/images/favicon.ico?v=20250906">
+<link rel="icon" href="{{ base_path }}/images/favicon.ico?v=20250906" type="image/x-icon">
+<link rel="icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=20250906" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ base_path }}/images/favicon.ico?v=20250906">
+<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=20250906" color="#000000">
+<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=20250906">
+<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=20250906">
 <!-- Mobile browser chrome. Media-scoped so the system case is right with no JS;
      theme-toggle.js rewrites the media attributes for an explicit choice. -->
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" data-scheme="light">
